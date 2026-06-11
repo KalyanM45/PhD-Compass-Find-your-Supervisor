@@ -1,8 +1,3 @@
-"""Subagent: resolve contact email for a single PI candidate.
-
-Tries ORCID public API first, then scrapes the PI's homepage.
-Returns None rather than fabricating an address.
-"""
 from __future__ import annotations
 
 import logging

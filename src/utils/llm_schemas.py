@@ -1,11 +1,3 @@
-"""Pydantic schemas for LLM-generated outputs.
-
-Each class represents the expected JSON structure returned by one LLM call.
-Using Pydantic here gives us:
-  - Field-level validation (types, required vs optional)
-  - Automatic coercion (e.g. a string where a list is expected)
-  - Clear contract between the prompt and the code that consumes the output
-"""
 from __future__ import annotations
 
 from pydantic import BaseModel, Field
@@ -66,3 +58,13 @@ class EligibilityCheck(BaseModel):
     """Structured output for LLM-based PhD position eligibility check."""
     eligible: bool = True          # True if the student's citizenship is allowed
     restriction: str = "Unknown"   # plain-English summary e.g. "UK/EU only" or "open to all"
+
+
+# ---------------------------------------------------------------------------
+# candidate_review prompt output  (src/nodes/review.py)
+# ---------------------------------------------------------------------------
+
+class CandidateReview(BaseModel):
+    """Structured output for the final LLM quality-gate review of each PI candidate."""
+    keep: bool = True       # False → drop this candidate before why_match generation
+    drop_reason: str = ""   # e.g. "non_academic_institution", "wrong_domain"

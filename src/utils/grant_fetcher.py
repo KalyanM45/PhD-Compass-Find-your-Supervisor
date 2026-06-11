@@ -1,4 +1,3 @@
-"""Subagent: fetch EU/CH grants for a single PI candidate via CORDIS."""
 from __future__ import annotations
 
 import logging

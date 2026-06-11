@@ -1,13 +1,3 @@
-"""Node: Stage 8 — Score, tier, and balance candidates.
-
-match_score = weighted combination of:
-  topic_similarity  (keyword overlap, candidate concepts vs area + query hint)
-  recency_score     (how recent the PI's best evidence paper is)
-  evidence_strength (paper count + citation weight)
-  seniority_score   (h_index, cited_by_count, works_count, i10_index composite)
-
-Tiering and per-area balancing are config-driven.
-"""
 from __future__ import annotations
 
 import logging

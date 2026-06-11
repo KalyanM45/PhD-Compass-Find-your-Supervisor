@@ -1,8 +1,3 @@
-"""Single entrypoint for PhD Shortlist Builder.
-
-Usage:
-    python run.py --profile data/inputs/stu_001.json --out data/outputs/stu_001.json
-"""
 from __future__ import annotations
 
 import argparse

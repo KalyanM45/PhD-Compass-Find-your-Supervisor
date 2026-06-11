@@ -1,4 +1,3 @@
-"""Disk-backed cache keyed by a hash of (endpoint, params)."""
 from __future__ import annotations
 
 import hashlib

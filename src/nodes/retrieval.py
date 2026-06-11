@@ -1,8 +1,3 @@
-"""Node: Stages 2 + 3 — Expand queries and retrieve papers from OpenAlex.
-
-Calls QueryExpander subagent per area (adds keyword_variants), then fans out
-PaperFetcher subagent calls in parallel — one per area.
-"""
 from __future__ import annotations
 
 import logging

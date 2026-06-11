@@ -1,21 +1,3 @@
-"""Orchestrator: wire all agents into a PipelineGraph and run it.
-
-Graph topology (linear DAG, parallelism inside each node):
-
-  parse_profile
-       │
-  enrich_profile          ← ProfileNode (LLM call #1)
-       │
-  retrieve_papers         ← RetrievalNode (query expand + parallel OpenAlex fetch)
-       │
-  build_candidates        ← CandidateNode (extract PIs + disambiguate + country filter)
-       │
-  attach_evidence         ← EvidenceNode (papers + grants + email + linked_programs, parallel)
-       │
-  score_and_balance       ← ScoringNode (score, tier, balance)
-       │
-  generate_why_match      ← WhyMatchNode (LLM calls #2…N, parallel)
-"""
 from __future__ import annotations
 
 import logging

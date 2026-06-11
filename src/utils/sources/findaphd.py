@@ -1,8 +1,3 @@
-"""Scraper: FindAPhD.com — largest UK/EU PhD vacancy aggregator.
-
-Search URL: https://www.findaphd.com/phds/search/?Keywords=term&CountryCode=GB
-Returns structured listings with title, supervisor, funding, eligibility, deadline.
-"""
 from __future__ import annotations
 
 import logging

@@ -1,4 +1,3 @@
-"""Load prompt templates from the prompts/ directory."""
 from __future__ import annotations
 
 from pathlib import Path

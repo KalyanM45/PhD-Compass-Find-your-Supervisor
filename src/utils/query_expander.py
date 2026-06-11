@@ -1,4 +1,3 @@
-"""Subagent: expand a single query hint with synonym variants."""
 from __future__ import annotations
 
 _SYNONYMS: dict[str, list[str]] = {

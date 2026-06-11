@@ -1,4 +1,3 @@
-"""Subagent: fetch papers from OpenAlex for a single query-plan area."""
 from __future__ import annotations
 
 from typing import Any

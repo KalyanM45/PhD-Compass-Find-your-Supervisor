@@ -1,12 +1,3 @@
-"""Subagent: cross-match PI paper titles/concepts against student use-case keywords.
-
-Keyword-based (no LLM) — fast, deterministic, cache-free.
-
-A paper is considered a match if at least one keyword from any use-case phrase
-appears in the paper title or its OpenAlex x_concepts display names.
-Matched papers receive a `relevance_note` field and are sorted to the front so
-the blurb generator and orchestrator can prioritise them.
-"""
 from __future__ import annotations
 
 import re

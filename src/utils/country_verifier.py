@@ -1,7 +1,3 @@
-"""Subagent: verify a single candidate's current country from recent works.
-
-Returns the confirmed ISO country code, or None if unverifiable.
-"""
 from __future__ import annotations
 
 import logging

@@ -1,9 +1,3 @@
-"""Node: Stages 4 + 5 + 6 — Extract PI candidates, disambiguate, country-filter.
-
-Stage 4: Extract unique PI candidates from paper authorships (local, no API).
-Stage 5: Disambiguate via OpenAlex author fingerprint (parallel per candidate).
-Stage 6: Re-verify current country from recent works (parallel per candidate).
-"""
 from __future__ import annotations
 
 import logging

@@ -1,13 +1,3 @@
-"""4-step hierarchical topic selection using sequential LLM calls.
-
-Narrows down OpenAlex topics from ~4500 to a small relevant set by:
-  Step 1 — student interests + all domains (~4)       → LLM picks domains
-  Step 2 — student interests + fields in domain (~10) → LLM picks fields
-  Step 3 — student interests + subfields in field (~20) → LLM picks subfields
-  Step 4 — student interests + topics in subfield (~30-50) → LLM picks topic IDs
-
-The LLM never sees all 4500 topics at once — each step is a small, focused list.
-"""
 from __future__ import annotations
 
 import json

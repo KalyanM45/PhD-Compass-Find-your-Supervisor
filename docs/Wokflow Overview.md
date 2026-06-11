@@ -76,14 +76,22 @@ Step-7: Scoring & Tiering
 - We also balance the final list so no single research area dominates, and remove duplicates.
 - Final output is a ranked list of at least 50 PI recommendations.
 
-Step-8: Why-Match Blurb Generation
-- For each PI in the final list, We generate a personalised one-sentence explanation of why this PI is a good match for the student.
+Step-8: LLM Quality Review
+- Before generating any blurbs, We run a final LLM review on every PI candidate that survived scoring.
+- For each candidate, We ask the LLM two questions:
+    - Is this institution a genuine academic place that can supervise a PhD? — This catches pharma companies (Roche, Sanofi, Merck), tech giants (Google, Microsoft), industrial firms (Henkel, Siemens), and insurance companies that slip through the earlier institution-type filter because OpenAlex doesn't always tag them as "company".
+    - Do the matched papers actually relate to the student's research area? — Generic "deep learning" is not enough. Papers on laser welding, animal pain recognition, or autonomous driving are not a match for a student in drug discovery or molecular property prediction.
+- Candidates that fail either check are dropped here before we waste blurb-generation LLM calls on them.
+- If the LLM call itself fails for a candidate, We keep the candidate (fail-open) so we never accidentally drop a valid PI due to a network or parse error.
+
+Step-9: Why-Match Blurb Generation
+- For each PI that survives the review, We generate a personalised one-sentence explanation of why this PI is a good match for the student.
 - This is done using an LLM call with the PI's papers/grants and the student's skills/projects as input.
 - The LLM is told to always mention a specific paper or grant and a specific student skill — no generic phrases.
 - All blurbs are generated in parallel to keep the pipeline fast.
 - If the LLM fails or times out for a candidate, a fallback sentence is used that references the top paper title directly.
 
-Step-9: Output
+Step-10: Output
 - All the final candidates are assembled and validated against the output schema (Refer [Output Schema](schema.md)).
 - Hard rules are enforced — if fewer than 50 recommendations are produced, the run fails loudly.
 - The final shortlist is written to `data/outputs/{student_id}_{timestamp}.json`

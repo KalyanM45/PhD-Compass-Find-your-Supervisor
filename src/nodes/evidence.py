@@ -1,13 +1,3 @@
-"""Node: Stage 7 — Attach evidence (papers, grants, programs) and resolve contact email.
-
-Fans out GrantFetcher + ProgramFetcher + EmailResolver subagent calls in parallel per candidate.
-Drops candidates with zero evidence (Stage 3 guarantees at least one paper in practice).
-
-linked_programs is populated by ProgramFetcher via three strategies:
-  1. Offline institution → doctoral program URL lookup table (~60 universities)
-  2. FindAPhD.com live search by supervisor name + area
-  3. PI homepage scrape for recruitment language + nearby links
-"""
 from __future__ import annotations
 
 import logging

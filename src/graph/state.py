@@ -1,20 +1,3 @@
-"""LangGraph state and shared context for the PhD Shortlist pipeline.
-
-LangGraph requires the graph state to be a TypedDict.  Every node receives the
-full state and returns a dict containing only the keys it wants to update —
-LangGraph merges those updates into the running state automatically.
-
-State key lifecycle
--------------------
-profile          → set by the caller before graph.invoke(); never mutated
-enrichment       → written by enrich_profile node
-countries        → written by enrich_profile node
-query_plan       → written by enrich_profile node (expanded by retrieve_papers)
-papers_by_area   → written by retrieve_papers node
-area_candidates  → written by build_candidates node; mutated by attach_evidence
-                   and score_and_balance
-final_candidates → written by score_and_balance node; mutated by generate_why_match
-"""
 from __future__ import annotations
 
 from dataclasses import dataclass

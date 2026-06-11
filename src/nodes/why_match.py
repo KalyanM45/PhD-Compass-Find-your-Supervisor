@@ -1,8 +1,3 @@
-"""Node: Stage 9 — Generate grounded why_match blurbs.
-
-Fans out BlurbGenerator subagent calls in parallel (bounded by parallelism_limit).
-Falls back to a deterministic sentence on timeout or LLM error.
-"""
 from __future__ import annotations
 
 import logging

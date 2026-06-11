@@ -1,4 +1,3 @@
-"""Pydantic v2 models for input (student profile) and output (shortlist)."""
 from __future__ import annotations
 
 from datetime import datetime

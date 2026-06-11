@@ -1,17 +1,3 @@
-"""Subagent: disambiguate a single PI candidate via OpenAlex author record.
-
-Five-layer validation:
-  1. x_concepts keyword overlap — fast pre-filter; if clear mismatch, drop immediately
-  2. LLM semantic relevance     — called only when keyword result is ambiguous (0-1 hits);
-                                   decides "does this researcher's career overlap with the student's area?"
-  3. Institution type check     — drop if primary affiliation is company / funder / archive
-  4. Bibliometric gate          — drop if works_count + h_index clearly indicate PhD student / postdoc
-  5. ORCID employment           — confirm or override based on stated employment role;
-                                   handles non-English titles (Maître de conférences, W2 Professor, etc.)
-
-Returns the enriched candidate dict, or None if it should be dropped.
-Precision over recall — drop on clear evidence, keep on ambiguity.
-"""
 from __future__ import annotations
 
 import logging

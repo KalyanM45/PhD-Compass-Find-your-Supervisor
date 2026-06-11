@@ -1,13 +1,3 @@
-"""Reliable structured output for small/local LLMs.
-
-with_structured_output() breaks on models like qwen3.5 that:
-  - emit <think>...</think> reasoning blocks before the JSON
-  - wrap JSON in markdown fences
-  - include prose before/after the object
-
-call_structured() handles all of those cases by calling the LLM directly
-and extracting the JSON from the raw text response.
-"""
 from __future__ import annotations
 
 import json

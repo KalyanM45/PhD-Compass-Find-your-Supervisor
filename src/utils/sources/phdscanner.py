@@ -1,8 +1,3 @@
-"""Scraper: PhD Scanner (phdscanner.com) — aggregates positions from UK universities directly.
-
-Search URL: https://phdscanner.com/phd-opportunities/?search=term
-Tends to have positions not listed on FindAPhD, especially from specific departments.
-"""
 from __future__ import annotations
 
 import logging

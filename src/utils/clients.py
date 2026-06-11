@@ -1,4 +1,3 @@
-"""OpenAlex HTTP client, shared LLM retry helper, and LiteLLM key-rotation pool."""
 from __future__ import annotations
 
 import logging

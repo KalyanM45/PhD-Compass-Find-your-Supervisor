@@ -1,36 +1,3 @@
-"""LangGraph pipeline for the PhD Shortlist Builder.
-
-Graph topology (linear DAG — each node depends on the previous one):
-
-    START
-      │
-  enrich_profile       ← ProfileNode   : LLM call #1 — extract capability
-      │                                   profile, openalex concepts, countries
-  retrieve_papers      ← RetrievalNode : expand queries + parallel OpenAlex fetch
-      │
-  build_candidates     ← CandidateNode : extract PIs, disambiguate, country-filter
-      │
-  attach_evidence      ← EvidenceNode  : papers + grants + email + programs (parallel)
-      │
-  score_and_balance    ← ScoringNode   : score, tier, balance across areas
-      │
-  generate_why_match   ← WhyMatchNode  : LLM calls #2…N (parallel, rate-limited)
-      │
-     END
-
-Why LangGraph?
---------------
-LangGraph manages the state dict automatically — each node returns only the
-keys it updates and LangGraph merges them.  This gives us:
-  • Built-in streaming / checkpointing hooks (not used yet, easy to add).
-  • Clear graph topology visible in LangGraph Studio / tracing tools.
-  • Standard edge API instead of a hand-rolled topological sort.
-
-Node contract
--------------
-Every node class exposes a ``run(state) -> dict`` method that accepts the full
-PipelineState and returns a *partial* dict of updated keys.
-"""
 from __future__ import annotations
 
 import logging
@@ -43,6 +10,7 @@ from src.nodes.retrieval import RetrievalNode
 from src.nodes.candidates import CandidateNode
 from src.nodes.evidence import EvidenceNode
 from src.nodes.scoring import ScoringNode
+from src.nodes.review import ReviewNode
 from src.nodes.why_match import WhyMatchNode
 
 logger = logging.getLogger(__name__)
@@ -75,6 +43,7 @@ def build_pipeline(context: PipelineContext):
     candidate_node = CandidateNode(context)
     evidence_node = EvidenceNode(context)
     scoring_node = ScoringNode(context)
+    review_node = ReviewNode(context)
     why_match_node = WhyMatchNode(context)
 
     # ------------------------------------------------------------------
@@ -101,21 +70,26 @@ def build_pipeline(context: PipelineContext):
     #          balance across research areas, produce flat final_candidates list
     graph.add_node("score_and_balance", lambda s, n=scoring_node: n.run(s))
 
-    # Stage 9: generate personalised why_match blurbs via LLM (parallel,
-    #          rate-limited to llm_parallelism_limit concurrent calls)
+    # Stage 9: LLM quality gate — drop industry researchers and wrong-domain
+    #          matches before blurb generation to avoid wasting LLM calls
+    graph.add_node("review_candidates", lambda s, n=review_node: n.run(s))
+
+    # Stage 10: generate personalised why_match blurbs via LLM (parallel,
+    #           rate-limited to llm_parallelism_limit concurrent calls)
     graph.add_node("generate_why_match", lambda s, n=why_match_node: n.run(s))
 
     # ------------------------------------------------------------------
     # 4. Wire edges — linear pipeline, each node feeds the next
     # ------------------------------------------------------------------
 
-    graph.add_edge(START,                "enrich_profile")
-    graph.add_edge("enrich_profile",     "retrieve_papers")
-    graph.add_edge("retrieve_papers",    "build_candidates")
-    graph.add_edge("build_candidates",   "attach_evidence")
-    graph.add_edge("attach_evidence",    "score_and_balance")
-    graph.add_edge("score_and_balance",  "generate_why_match")
-    graph.add_edge("generate_why_match", END)
+    graph.add_edge(START,                  "enrich_profile")
+    graph.add_edge("enrich_profile",       "retrieve_papers")
+    graph.add_edge("retrieve_papers",      "build_candidates")
+    graph.add_edge("build_candidates",     "attach_evidence")
+    graph.add_edge("attach_evidence",      "score_and_balance")
+    graph.add_edge("score_and_balance",    "review_candidates")
+    graph.add_edge("review_candidates",    "generate_why_match")
+    graph.add_edge("generate_why_match",   END)
 
     # ------------------------------------------------------------------
     # 5. Compile — validates the graph and returns a Runnable
@@ -124,6 +98,6 @@ def build_pipeline(context: PipelineContext):
 
     logger.info(
         "LangGraph pipeline compiled — %d nodes, linear DAG",
-        6,  # enrich → retrieve → candidates → evidence → score → why_match
+        7,  # enrich → retrieve → candidates → evidence → score → review → why_match
     )
     return compiled

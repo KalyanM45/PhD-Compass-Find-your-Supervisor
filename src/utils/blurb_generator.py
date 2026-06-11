@@ -1,4 +1,3 @@
-"""Subagent: generate a single grounded why_match blurb via LLM."""
 from __future__ import annotations
 
 import logging

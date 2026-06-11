@@ -1,15 +1,3 @@
-"""Subagent: find linked PhD programs and open positions for a single PI candidate.
-
-Two live sources run in parallel, preceded by an offline institution lookup:
-
-  1. Institution lookup table  — ~80 major universities mapped to doctoral program URLs.
-                                  Zero network calls, zero failure rate.
-  2. FindAPhD.com              — UK/EU structured listings with funding + eligibility.
-  3. PhD Scanner               — UK aggregator, catches positions not on FindAPhD.
-
-Output per program (matches LinkedProgram schema):
-  {name, url, open_positions: [{title, url, deadline}]}
-"""
 from __future__ import annotations
 
 import logging
