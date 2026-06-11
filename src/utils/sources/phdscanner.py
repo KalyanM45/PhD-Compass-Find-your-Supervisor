@@ -103,6 +103,7 @@ def _parse(html: str, supervisor_name: str) -> list[dict[str, Any]]:
             "deadline": deadline,
             "funding_status": _extract_funding(card_text),
             "eligible_citizenships": _extract_eligibility(card_text),
+            "description": card_text[:1000],  # raw text for LLM eligibility check
             "source": "phdscanner",
         })
 

@@ -37,7 +37,8 @@ def _select_top_papers(
 
 
 def _enrich_one(
-    candidate: dict[str, Any], area: str, use_cases: list[str]
+    candidate: dict[str, Any], area: str, use_cases: list[str],
+    citizenship: str | None = None, llm_client: Any = None,
 ) -> dict[str, Any] | None:
     papers = _select_top_papers(candidate)
     # Annotate each paper with relevance_note if it matches a student use case;
@@ -50,7 +51,7 @@ def _enrich_one(
         return None
 
     email = resolve_email(candidate)
-    programs = fetch_programs_for_candidate(candidate, area)
+    programs = fetch_programs_for_candidate(candidate, area, citizenship=citizenship, llm_client=llm_client)
 
     return {
         **candidate,
@@ -70,6 +71,7 @@ class EvidenceNode:
         area_candidates = state["area_candidates"]
         parallelism = self._context.config["timeouts"]["parallelism_limit"]
         use_cases: list[str] = state["profile"].use_cases
+        citizenship: str | None = state["profile"].citizenship
 
         result: dict[str, list[dict[str, Any]]] = {}
 
@@ -77,7 +79,7 @@ class EvidenceNode:
             enriched: list[dict[str, Any]] = []
             with ThreadPoolExecutor(max_workers=parallelism) as pool:
                 futures = {
-                    pool.submit(_enrich_one, cand, area, use_cases): cand
+                    pool.submit(_enrich_one, cand, area, use_cases, citizenship, self._context.llm_client): cand
                     for cand in candidates
                 }
                 for future in as_completed(futures):

@@ -1,225 +1,106 @@
-# schema.md — Output JSON Schema
+## Schema Reference
 
-> Required deliverable per PDF §8.5.  
-> Every field, its type, whether it is required, and any validation rules.
-
----
-
-## Top-level Shortlist Object
-
-```jsonc
-{
-  "student_id":       "stu_001",                    // string, required
-  "generated_at":     "2026-06-10T14:30:22Z",       // ISO 8601 datetime UTC, required
-  "target_countries": ["DE", "NL", "CH"],            // list[string] ISO 3166-1 alpha-2, required
-  "target_intake":    { "semester": "Fall", "year": 2026 },  // required
-  "recommendations":  [ ...Recommendation ],         // list, required, length ≥ 50
-  "coverage_summary": { "area_name": 28, ... },      // dict[string → int], required
-  "run_metadata":     { ... }                        // RunMetadata, required
-}
-```
-
-### Hard validation rules (enforced by Pydantic — run fails loudly if violated)
-
-| Rule | Error if violated |
-|------|------------------|
-| `len(recommendations) >= 50` | `ValidationError` |
-| Every `supervisor.country` ∈ `target_countries` | `ValidationError` |
-| Every `Evidence` object has ≥ 1 paper **or** grant | `ValidationError` |
-| `match_score` ∈ [0.0, 1.0] | `ValidationError` |
+This document describes the input and output schema of the PhD Explorer pipeline.
 
 ---
 
-## Recommendation Object
+### Input Schema — StudentProfile
 
-```jsonc
-{
-  "supervisor":      { ...Supervisor },     // required
-  "research_area":   "geometric deep learning",  // string, which student area this maps to, required
-  "evidence":        { ...Evidence },       // required
-  "why_match":       "Your MSc thesis...", // string, required — must reference specific paper/grant
-  "match_score":     0.82,                 // float [0.0–1.0], required
-  "tier":            "reach",              // "reach" | "target" | "safety" | null
-  "linked_programs": [ ...LinkedProgram ]  // list, may be empty
-}
-```
+This is what we expect the student to provide before running the pipeline.
 
----
-
-## Supervisor Object
-
-```jsonc
-{
-  "name":               "Jane Müller",                      // string, required
-  "openalex_author_id": "https://openalex.org/A1234567890", // string | null
-  "orcid":              "0000-0002-1825-0097",              // string | null
-  "institution":        "ETH Zürich",                       // string, required
-  "country":            "CH",                               // string ISO 3166-1 alpha-2, required
-  "contact_email":      "jane.mueller@ethz.ch",             // string | null — never fabricated
-  "research_focus":     "Geometric deep learning for molecular systems" // string | null
-}
-```
-
----
-
-## Evidence Object
-
-```jsonc
-{
-  "papers": [ ...Paper ],   // list[Paper], may be empty if grants present
-  "grants": [ ...Grant ]    // list[Grant], may be empty if papers present
-  // Constraint: at least one of papers or grants must be non-empty
-}
-```
-
-### Paper Object
-
-```jsonc
-{
-  "title":         "Equivariant message passing for molecular property prediction", // string, required
-  "year":          2024,                      // int | null
-  "doi":           "10.xxxx/xxxxx",           // string | null
-  "url":           "https://doi.org/10.xxxx", // string, required (doi URL or OpenAlex URL)
-  "openalex_id":   "https://openalex.org/W...", // string | null
-  "relevance_note": "Same equivariant GNN family as the student's thesis" // string | null
-}
-```
-
-### Grant Object
-
-```jsonc
-{
-  "title":  "SNSF: Equivariant deep learning for chemistry", // string, required
-  "funder": "Swiss National Science Foundation",             // string | null
-  "id":     "200021_207372",                                 // string | null (funder grant ID)
-  "url":    "https://cordis.europa.eu/project/id/...",       // string, required
-  "years":  "2023–2027"                                      // string | null
-}
-```
+- student_id — unique identifier for the student (e.g. "001")
+- education — list of education records, each with:
+    - degree — degree name (e.g. "MSc Computer Science")
+    - institution — name of the university
+    - country — country of the institution
+    - grade — GPA or equivalent score (optional)
+    - start_year — when the degree started (optional)
+    - end_year — when the degree ended (optional)
+    - thesis_title — title of the thesis if any (optional)
+    - thesis_abstract — abstract of the thesis if any (optional)
+- skills — flat list of technical skills (e.g. ["PyTorch", "RDKit", "SLURM"])
+- projects — list of projects, each with:
+    - title — project title
+    - description — what the project does
+    - tech — list of tools/frameworks used
+- publications — list of papers the student has written, each with:
+    - title — paper title
+    - venue — conference or journal name (optional)
+    - year — publication year (optional)
+    - doi — DOI link (optional, null if not published yet)
+    - role — author role (e.g. "first author") (optional)
+- research_interests — broad list of research areas the student is interested in
+- use_cases — specific application domains the student cares about (e.g. "drug discovery", "protein-ligand binding") — We use these to flag which PI papers directly match the student's work
+- target_countries — list of countries the student wants to apply to (can be full names like "Germany" — We normalize them to ISO codes internally)
+- target_intake — when the student wants to start:
+    - semester — "Fall" or "Spring"
+    - year — e.g. 2026
+- citizenship — ISO 3166-1 alpha-2 country code for the student's citizenship (e.g. "IN" for India, "CN" for China) — We use this to filter out PhD positions where the student would not be eligible
+- intro_call_summary — notes from the intro call with the student about their preferences, lab type, funding expectations etc. (optional)
+- raw_resume_text — the student's resume as plain text — used for LLM-based profile enrichment (optional)
 
 ---
 
-## LinkedProgram Object
+### Output Schema — Shortlist
 
-```jsonc
-{
-  "name": "ETH Zürich Doctoral Program in Computer Science", // string, required
-  "url":  "https://inf.ethz.ch/doctorate",                  // string, required
-  "open_positions": [ ...OpenPosition ]                      // list, may be empty
-}
-```
+This is the JSON file we write to `data/outputs/{student_id}_{timestamp}.json` after the pipeline finishes.
 
-### OpenPosition Object
+Top-level fields:
 
-```jsonc
-{
-  "title":    "PhD in ML for chemistry",  // string, required
-  "url":      "https://...",              // string, required
-  "deadline": "2026-01-15"               // string | null (ISO date)
-}
-```
+- student_id — same as input
+- generated_at — ISO 8601 timestamp of when the pipeline ran (e.g. "2026-06-10T14:48:31Z")
+- target_countries — list of ISO 3166-1 alpha-2 codes after normalization (e.g. ["DE", "NL", "CH"])
+- target_intake — same structure as input (semester + year)
+- recommendations — the ranked list of PI recommendations (see below)
+- coverage_summary — how many recommendations we produced per research area (e.g. {"geometric deep learning": 26, "AI for drug discovery": 19})
+- run_metadata — stats about the pipeline run (see below)
 
 ---
 
-## CoverageSummary Object
+#### Each Recommendation
 
-A plain `dict[string, int]` mapping each research area name to the count of
-recommendations in that area.
-
-```jsonc
-{
-  "graph neural networks for molecular property prediction": 28,
-  "geometric deep learning": 22,
-  "AI for drug discovery": 18
-}
-```
-
----
-
-## RunMetadata Object
-
-```jsonc
-{
-  "total_recommendations": 68,       // int, required
-  "wall_clock_seconds":    540.3,    // float, required
-  "email_hit_rate":        0.61,     // float [0.0–1.0], required
-  "deferred_limitations":  [         // list[string], may be empty
-    "alphabetical-authorship fields (math/econ) break last-author PI heuristic",
-    "linked_programs not yet live-scraped (department URL acceptable for v1)",
-    "grant coverage limited to CORDIS (EU); DFG/UKRI not yet integrated"
-  ]
-}
-```
-
----
-
-## Tier Definitions
-
-| Tier | Condition | Meaning |
-|------|-----------|---------|
-| `"reach"` | `match_score >= 0.75` | Strong alignment; student may be under-qualified but PI is an excellent fit |
-| `"target"` | `match_score >= 0.50` | Good alignment; realistic application |
-| `"safety"` | `match_score < 0.50` | Weaker alignment; likely to respond but not a perfect match |
-| `null` | Not computed | Score present; tier not assigned |
+- supervisor — information about the PI:
+    - name — full name of the PI
+    - openalex_author_id — OpenAlex URL for the author profile
+    - orcid — ORCID URL if found, null otherwise
+    - institution — name of the PI's current institution
+    - country — ISO code of the PI's country (e.g. "DE", "CH")
+    - contact_email — email address if we could resolve it from ORCID or homepage, null otherwise
+    - research_focus — the research area this PI was found under (e.g. "geometric deep learning")
+- research_area — the research area bucket this recommendation belongs to
+- evidence — what we found to back this PI:
+    - papers — top 1-3 recent papers from the PI, each with:
+        - title — paper title
+        - year — publication year
+        - doi — DOI link (null if not available)
+        - url — direct URL to the paper
+        - openalex_id — OpenAlex ID for the paper
+        - relevance_note — if this paper matches one of the student's use cases we add a short note here (e.g. "Matches your use case: drug discovery"), otherwise null
+    - grants — list of active CORDIS grants if any, each with:
+        - title — grant title
+        - funder — funding body (e.g. "European Commission")
+        - id — grant ID
+        - url — link to the grant page
+        - years — funding period (e.g. "2022-2025")
+- why_match — a one-sentence personalised explanation of why this PI is a good match for the student, generated by the LLM and always referencing a specific paper and a specific student skill
+- match_score — a float from 0.0 to 1.0 representing how well this PI matches the student (higher is better)
+- tier — which bucket this PI falls into:
+    - reach — score ≥ 0.75
+    - target — score ≥ 0.50
+    - safety — score < 0.50
+- linked_programs — list of PhD programs linked to this PI's institution, each with:
+    - name — program name (e.g. "TU Munich Doctoral Program")
+    - url — link to the doctoral program page
+    - open_positions — list of live PhD positions found on FindAPhD or PhDScanner (can be empty), each with:
+        - title — position title
+        - url — link to the listing
+        - deadline — closing date if mentioned, null otherwise
 
 ---
 
-## match_score Formula
+#### Run Metadata
 
-```
-match_score = 0.5 × topic_similarity
-            + 0.2 × recency_score
-            + 0.2 × evidence_strength
-            + 0.1 × seniority_score
-```
-
-| Component | Formula |
-|-----------|---------|
-| `topic_similarity` | Keyword overlap: area + query_hint words ∩ author x_concepts names ÷ query word count. Capped at 1.0. |
-| `recency_score` | `max(0, 1 − age/10)` where age = current_year − best_paper_year |
-| `evidence_strength` | `min(1, n_papers × 0.2 + total_citations/50 × 0.8)` |
-| `seniority_score` | `0.50×(h_index/60) + 0.25×(cited_by_count/10000) + 0.15×(works_count/200) + 0.10×(i10_index/100)` |
-
----
-
-## Full Example Record
-
-```jsonc
-{
-  "supervisor": {
-    "name": "Stephan Günnemann",
-    "openalex_author_id": "https://openalex.org/A2208157607",
-    "orcid": "0000-0002-5902-4537",
-    "institution": "Technical University of Munich",
-    "country": "DE",
-    "contact_email": null,
-    "research_focus": "geometric deep learning"
-  },
-  "research_area": "geometric deep learning",
-  "evidence": {
-    "papers": [
-      {
-        "title": "Equivariant message passing for the prediction of tensorial properties and molecular spectra",
-        "year": 2021,
-        "doi": "10.48550/arXiv.2102.03207",
-        "url": "https://doi.org/10.48550/arXiv.2102.03207",
-        "openalex_id": "https://openalex.org/W3127584398",
-        "relevance_note": null
-      }
-    ],
-    "grants": [
-      {
-        "title": "Graph Neural Networks for Molecular Property Prediction",
-        "funder": "European Commission (Horizon)",
-        "id": "101070596",
-        "url": "https://cordis.europa.eu/project/id/101070596",
-        "years": "2022–2026"
-      }
-    ]
-  },
-  "why_match": "Your MSc thesis on SE(3)-equivariant message passing directly extends Prof. Günnemann's 2021 tensor-property prediction paper, and his active Horizon grant funds exactly this equivariant GNN direction.",
-  "match_score": 0.81,
-  "tier": "reach",
-  "linked_programs": []
-}
-```
+- total_recommendations — total number of PI recommendations in this output
+- wall_clock_seconds — how long the full pipeline took to run
+- email_hit_rate — fraction of PIs for whom we found a contact email (0.0 to 1.0)
+- deferred_limitations — list of known limitations or known issues that apply to this run

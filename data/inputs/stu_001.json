@@ -44,6 +44,7 @@
     "semester": "Fall",
     "year": 2026
   },
+  "citizenship": "IN",
   "intro_call_summary": "Student wants to move from cheminformatics toward more fundamental geometric deep learning research, ideally in a lab that works on equivariant architectures or SE(3)/E(3) networks. Open to both CS departments and computational chemistry groups. Strongly prefers labs with active PhD positions and external funding. Would like to continue working with molecular systems but is excited about broader applications of geometric ML.",
   "raw_resume_text": "Hema Kalyan Murapaka | MSc CS, IIT Bombay | GPA 9.1/10 | Skills: PyTorch, PyTorch Geometric, RDKit, SLURM | Thesis: GNN for molecular property prediction | Publications: NeurIPS 2024 Workshop (first author)"
 }

@@ -57,6 +57,7 @@ class StudentProfile(BaseModel):
     target_intake: TargetIntake
     intro_call_summary: Optional[str] = None
     raw_resume_text: Optional[str] = None
+    citizenship: Optional[str] = None  # ISO-2 code e.g. "IN", "CN", "US", or "International"
 
     @model_validator(mode="after")
     def _upper_countries(self) -> "StudentProfile":

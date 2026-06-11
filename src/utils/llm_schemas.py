@@ -56,3 +56,13 @@ class ProfileEnrichment(BaseModel):
     # ISO 3166-1 alpha-2 country codes resolved from the student's target_countries.
     # Critical: used as the OpenAlex country filter in every search query.
     normalised_countries: list[str] = Field(default_factory=list)
+
+
+# ---------------------------------------------------------------------------
+# eligibility_check prompt output  (src/utils/program_fetcher.py)
+# ---------------------------------------------------------------------------
+
+class EligibilityCheck(BaseModel):
+    """Structured output for LLM-based PhD position eligibility check."""
+    eligible: bool = True          # True if the student's citizenship is allowed
+    restriction: str = "Unknown"   # plain-English summary e.g. "UK/EU only" or "open to all"

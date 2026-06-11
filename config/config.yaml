@@ -39,7 +39,7 @@ timeouts:
   llm_parallelism_limit: 3  # concurrent LLM calls; keep low to avoid TPM/RPM exhaustion
 
 llm:
-  model: "llama-3.3-70b-versatile"   # Groq — 12k TPM, no thinking-token overhead
+  model: "gemma2-9b-it"   # Groq — 12k TPM, no thinking-token overhead
   max_tokens: 4096
 
 cache:

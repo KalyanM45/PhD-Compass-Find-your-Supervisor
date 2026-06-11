@@ -14,8 +14,12 @@ from __future__ import annotations
 
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from typing import Any
+from typing import Any, Optional
 
+from langchain_core.messages import HumanMessage
+
+from src.utils.llm_schemas import EligibilityCheck
+from src.utils.llm_utils import call_structured
 from src.utils.sources import findaphd, phdscanner
 
 logger = logging.getLogger(__name__)
@@ -70,6 +74,80 @@ _INSTITUTION_PROGRAMS: dict[str, tuple[str, str]] = {
 }
 
 
+_CITIZENSHIP_LABELS: dict[str, str] = {
+    "IN": "Indian", "CN": "Chinese", "US": "American", "GB": "British",
+    "DE": "German", "FR": "French", "AU": "Australian", "CA": "Canadian",
+    "PK": "Pakistani", "BD": "Bangladeshi", "NG": "Nigerian", "BR": "Brazilian",
+}
+
+
+def _is_eligible_by_keywords(vacancy: dict[str, Any], citizenship: str) -> Optional[bool]:
+    """Fast keyword-based check. Returns True/False/None (None = unknown, needs LLM)."""
+    flags = vacancy.get("eligible_citizenships", ["Unknown"])
+    if "Unknown" in flags:
+        return None  # can't determine from keywords — ask LLM
+    if "International" in flags:
+        return True
+    # UK_only / EU_only — non-UK/EU citizen is ineligible
+    if flags == ["UK_only"] and citizenship not in ("GB", "UK"):
+        return False
+    if flags == ["EU"] and citizenship not in ("GB", "DE", "FR", "NL", "CH", "BE", "AT", "SE", "DK", "FI", "NO", "PT", "ES", "IT"):
+        return False
+    return True
+
+
+def _is_eligible_by_llm(vacancy: dict[str, Any], citizenship: str, llm_client: Any) -> bool:
+    """Ask LLM to decide eligibility from the raw position description."""
+    description = vacancy.get("description", "") or vacancy.get("title", "")
+    if not description:
+        return True  # no info — default to keep
+    citizenship_label = _CITIZENSHIP_LABELS.get(citizenship, citizenship)
+    prompt = (
+        f"This is a PhD position listing. Can a student who is a {citizenship_label} citizen "
+        f"(citizenship code: {citizenship}) apply for this position?\n\n"
+        f"Position text:\n{description}\n\n"
+        f"If the listing restricts eligibility to specific nationalities or citizenship statuses "
+        f"(like 'UK only', 'home students', 'EU residents only', 'Chinese students only'), "
+        f"and the student does not qualify, return eligible=false.\n"
+        f"If the listing is open to all or does not mention restrictions, return eligible=true.\n"
+        f"Return JSON only."
+    )
+    try:
+        result = call_structured(llm_client, [HumanMessage(content=prompt)], EligibilityCheck)
+        logger.debug(
+            "Eligibility LLM: %r → eligible=%s (%s)",
+            vacancy.get("title"), result.eligible, result.restriction,
+        )
+        return result.eligible
+    except Exception as exc:
+        logger.debug("Eligibility LLM failed for %r: %s", vacancy.get("title"), exc)
+        return True  # on failure, default to keep
+
+
+def _filter_eligible_vacancies(
+    vacancies: list[dict[str, Any]],
+    citizenship: Optional[str],
+    llm_client: Any,
+) -> list[dict[str, Any]]:
+    """Filter out positions the student is not eligible for."""
+    if not citizenship:
+        return vacancies  # no citizenship info — keep all
+
+    eligible = []
+    for v in vacancies:
+        keyword_result = _is_eligible_by_keywords(v, citizenship)
+        if keyword_result is False:
+            logger.debug("Dropped ineligible position %r (keyword match, citizenship=%s)", v.get("title"), citizenship)
+            continue
+        if keyword_result is None and llm_client is not None:
+            # Keywords returned Unknown — ask LLM
+            if not _is_eligible_by_llm(v, citizenship, llm_client):
+                logger.debug("Dropped ineligible position %r (LLM, citizenship=%s)", v.get("title"), citizenship)
+                continue
+        eligible.append(v)
+    return eligible
+
+
 def _lookup_institution(institution: str) -> tuple[str, str] | None:
     lower = institution.lower()
     for key, value in _INSTITUTION_PROGRAMS.items():
@@ -85,6 +163,8 @@ def _lookup_institution(institution: str) -> tuple[str, str] | None:
 def fetch_programs_for_candidate(
     candidate: dict[str, Any],
     area: str,
+    citizenship: Optional[str] = None,
+    llm_client: Any = None,
 ) -> list[dict[str, Any]]:
     """Return linked PhD program records for a PI candidate."""
     programs: list[dict[str, Any]] = []
@@ -126,6 +206,11 @@ def fetch_programs_for_candidate(
                 logger.debug("Vacancy source %r failed for %r: %s", source, supervisor_name, exc)
                 continue
 
+            if not vacancies:
+                continue
+
+            # Filter out positions the student is not eligible for
+            vacancies = _filter_eligible_vacancies(vacancies, citizenship, llm_client)
             if not vacancies:
                 continue
 
