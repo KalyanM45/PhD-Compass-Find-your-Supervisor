@@ -1,0 +1,49 @@
+{
+  "student_id": "001",
+  "education": [
+    {
+      "degree": "MSc Computer Science",
+      "institution": "IIT Bombay",
+      "country": "IN",
+      "grade": "9.1 / 10 CGPA",
+      "start_year": 2022,
+      "end_year": 2024,
+      "thesis":{
+        "title": "Graph neural networks for molecular property prediction",
+        "abstract": "We develop a message-passing graph neural network (GNN) trained on molecular graphs to predict aqueous solubility, lipophilicity, and binding affinity. Using PyTorch Geometric and RDKit for featurisation, our MPNN achieves state-of-the-art results on the MoleculeNet benchmark, outperforming fingerprint-based baselines by 12% on average RMSE. We further explore equivariant architectures to incorporate 3-D geometry."
+      }
+   }
+  ],
+  "skills": ["PyTorch", "PyTorch Geometric", "graph neural networks", "RDKit", "SLURM", "Python", "NumPy", "scikit-learn"],
+  "projects": [
+    {
+      "title": "GNN for drug solubility prediction",
+      "description": "Implemented a message-passing GNN on molecular graphs using PyTorch Geometric and RDKit. Trained on 10k compounds from ChEMBL, achieving RMSE of 0.42 logS on test set.",
+      "tech": ["PyTorch Geometric", "RDKit", "ChEMBL"]
+    },
+    {
+      "title": "Equivariant GNN for protein-ligand binding",
+      "description": "Extended DimeNet++ with SE(3)-equivariant message passing to predict binding free energies; benchmarked on PDBbind dataset.",
+      "tech": ["PyTorch", "DimeNet++", "PDBbind"]
+    }
+  ],
+  "publications": [
+    {
+      "title": "Equivariant message passing for aqueous solubility prediction",
+      "abstract": "We present an SE(3)-equivariant message-passing neural network for predicting aqueous solubility of drug-like molecules. By incorporating 3-D geometric information, our model achieves state-of-the-art performance on the ESOL dataset, outperforming non-equivariant baselines by 15% in RMSE. This work demonstrates the importance of geometric deep learning in cheminformatics applications.",
+      "venue": "NeurIPS 2024 Workshop on AI for Drug Discovery",
+      "year": 2024,
+      "doi": null,
+      "role": "first author"
+    }
+  ],
+  "research_interests": ["Graph Representation Learning", "Geometric Deep Learning", "AI for Drug Discovery", "Computational Biology", "Machine Learning"],
+  "use_cases": ["drug discovery", "protein-ligand binding", "molecular property prediction", "cheminformatics", "computational chemistry"],
+  "target_countries": ["India", "United States", "United Kingdom"],
+  "target_intake": {
+    "semester": "Fall",
+    "year": 2026
+  },
+  "intro_call_summary": "Student wants to move from cheminformatics toward more fundamental geometric deep learning research, ideally in a lab that works on equivariant architectures or SE(3)/E(3) networks. Open to both CS departments and computational chemistry groups. Strongly prefers labs with active PhD positions and external funding. Would like to continue working with molecular systems but is excited about broader applications of geometric ML.",
+  "raw_resume_text": "Hema Kalyan Murapaka | MSc CS, IIT Bombay | GPA 9.1/10 | Skills: PyTorch, PyTorch Geometric, RDKit, SLURM | Thesis: GNN for molecular property prediction | Publications: NeurIPS 2024 Workshop (first author)"
+}

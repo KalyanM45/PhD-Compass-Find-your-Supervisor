@@ -1,0 +1,2314 @@
+{
+  "student_id": "stu_001",
+  "generated_at": "2026-06-10T14:01:41.706099Z",
+  "target_countries": [
+    "DE",
+    "NL",
+    "CH"
+  ],
+  "target_intake": {
+    "semester": "Fall",
+    "year": 2026
+  },
+  "recommendations": [
+    {
+      "supervisor": {
+        "name": "Markus A. Lill",
+        "openalex_author_id": "https://openalex.org/A5041891399",
+        "orcid": "https://orcid.org/0000-0003-3023-5188",
+        "institution": "University of Basel",
+        "country": "CH",
+        "contact_email": null,
+        "research_focus": "Computational Chemistry"
+      },
+      "research_area": "Computational Chemistry",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Decision Making in Structure-Based Drug Discovery: Visual Inspection of Docking Results",
+            "year": 2021,
+            "doi": "https://doi.org/10.1021/acs.jmedchem.0c02227",
+            "url": "https://doi.org/https://doi.org/10.1021/acs.jmedchem.0c02227",
+            "openalex_id": "https://openalex.org/W3132447912",
+            "relevance_note": "Matches your use case: drug discovery"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on Decision Making in Structure-Based Drug Discovery.",
+      "match_score": 1.0,
+      "tier": "reach",
+      "linked_programs": [
+        {
+          "name": "University of Basel PhD",
+          "url": "https://www.unibas.ch/en/Research/PhD.html",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Andreas Hansen",
+        "openalex_author_id": "https://openalex.org/A5064712476",
+        "orcid": "https://orcid.org/0000-0003-1659-8206",
+        "institution": "University of Bonn",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Computational Chemistry"
+      },
+      "research_area": "Computational Chemistry",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Best‐Practice DFT Protocols for Basic Molecular Computational Chemistry**",
+            "year": 2022,
+            "doi": "https://doi.org/10.1002/anie.202205735",
+            "url": "https://doi.org/https://doi.org/10.1002/anie.202205735",
+            "openalex_id": "https://openalex.org/W4295779282",
+            "relevance_note": "Matches your use case: molecular property prediction; computational chemistry"
+          },
+          {
+            "title": "Best‐Practice DFT Protocols for Basic Molecular Computational Chemistry**",
+            "year": 2022,
+            "doi": "https://doi.org/10.1002/ange.202205735",
+            "url": "https://doi.org/https://doi.org/10.1002/ange.202205735",
+            "openalex_id": "https://openalex.org/W4295780932",
+            "relevance_note": "Matches your use case: molecular property prediction; computational chemistry"
+          },
+          {
+            "title": "Best Practice DFT Protocols for Basic Molecular Computational Chemistry",
+            "year": 2022,
+            "doi": "https://doi.org/10.26434/chemrxiv-2022-n304h",
+            "url": "https://doi.org/https://doi.org/10.26434/chemrxiv-2022-n304h",
+            "openalex_id": "https://openalex.org/W4224298425",
+            "relevance_note": "Matches your use case: molecular property prediction; computational chemistry"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch and graph neural networks makes them a strong match for the professor's work on molecular property prediction, as seen in the paper Best‐Practice DFT Protocols for Basic Molecular Computational Chemistry.",
+      "match_score": 1.0,
+      "tier": "reach",
+      "linked_programs": [
+        {
+          "name": "University of Bonn Doctoral Studies",
+          "url": "https://www.uni-bonn.de/en/research/graduate-studies",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Ashour A. Ahmed",
+        "openalex_author_id": "https://openalex.org/A5055137343",
+        "orcid": "https://orcid.org/0000-0002-5933-5249",
+        "institution": "University of Rostock",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Computational Chemistry"
+      },
+      "research_area": "Computational Chemistry",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Machine learning and computational chemistry to improve biochar fertilizers: a review",
+            "year": 2023,
+            "doi": "https://doi.org/10.1007/s10311-023-01631-0",
+            "url": "https://doi.org/https://doi.org/10.1007/s10311-023-01631-0",
+            "openalex_id": "https://openalex.org/W4385855845",
+            "relevance_note": "Matches your use case: computational chemistry"
+          },
+          {
+            "title": "Advances in understanding the phosphate binding to soil constituents: A Computational Chemistry perspective",
+            "year": 2023,
+            "doi": "https://doi.org/10.1016/j.scitotenv.2023.163692",
+            "url": "https://doi.org/https://doi.org/10.1016/j.scitotenv.2023.163692",
+            "openalex_id": "https://openalex.org/W4372342457",
+            "relevance_note": "Matches your use case: protein-ligand binding; computational chemistry"
+          },
+          {
+            "title": "Advances in understanding the phosphate binding insoil: A Computational Chemistry perspective",
+            "year": 2022,
+            "doi": "https://doi.org/10.26434/chemrxiv-2022-lq2j3",
+            "url": "https://doi.org/https://doi.org/10.26434/chemrxiv-2022-lq2j3",
+            "openalex_id": "https://openalex.org/W4308207146",
+            "relevance_note": "Matches your use case: protein-ligand binding; computational chemistry"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in graph neural networks, such as DimeNet++, makes them a strong match for the professor's work in computational chemistry, as seen in their paper Machine learning and computational chemistry to improve biochar fertilizers: a review.",
+      "match_score": 1.0,
+      "tier": "reach",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Gisbert Schneider",
+        "openalex_author_id": "https://openalex.org/A5028135456",
+        "orcid": "https://orcid.org/0000-0001-6706-1084",
+        "institution": "ETH Zurich",
+        "country": "CH",
+        "contact_email": null,
+        "research_focus": "Computational Chemistry"
+      },
+      "research_area": "Computational Chemistry",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Δ-Quantum machine-learning for medicinal chemistry",
+            "year": 2022,
+            "doi": "https://doi.org/10.1039/d2cp00834c",
+            "url": "https://doi.org/https://doi.org/10.1039/d2cp00834c",
+            "openalex_id": "https://openalex.org/W4224950134",
+            "relevance_note": "Matches your use case: computational chemistry"
+          },
+          {
+            "title": "Machine Learning and Computational Chemistry for the Endocannabinoid System",
+            "year": 2022,
+            "doi": "https://doi.org/10.1007/978-1-0716-2728-0_39",
+            "url": "https://doi.org/https://doi.org/10.1007/978-1-0716-2728-0_39",
+            "openalex_id": "https://openalex.org/W4296931261",
+            "relevance_note": "Matches your use case: computational chemistry"
+          },
+          {
+            "title": "A critical overview of computational approaches employed for COVID-19 drug discovery",
+            "year": 2021,
+            "doi": "https://doi.org/10.1039/d0cs01065k",
+            "url": "https://doi.org/https://doi.org/10.1039/d0cs01065k",
+            "openalex_id": "https://openalex.org/W3176005660",
+            "relevance_note": "Matches your use case: drug discovery; computational chemistry"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch and graph neural networks makes them a strong match for the professor's work on Δ-Quantum machine-learning for medicinal chemistry.",
+      "match_score": 1.0,
+      "tier": "reach",
+      "linked_programs": [
+        {
+          "name": "ETH Zürich Doctoral Studies",
+          "url": "https://ethz.ch/en/doctorate.html",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Jürgen Bajorath",
+        "openalex_author_id": "https://openalex.org/A5039926688",
+        "orcid": "https://orcid.org/0000-0002-0557-5714",
+        "institution": "University of Bonn",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Computational Chemistry"
+      },
+      "research_area": "Computational Chemistry",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Machine Learning in Chemoinformatics and Medicinal Chemistry",
+            "year": 2022,
+            "doi": "https://doi.org/10.1146/annurev-biodatasci-122120-124216",
+            "url": "https://doi.org/https://doi.org/10.1146/annurev-biodatasci-122120-124216",
+            "openalex_id": "https://openalex.org/W4224232334",
+            "relevance_note": "Matches your use case: computational chemistry"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student is a strong match due to their expertise in PyTorch and graph neural networks, which can be applied to the concepts explored in the professor's paper, Machine Learning in Chemoinformatics and Medicinal Chemistry.",
+      "match_score": 1.0,
+      "tier": "reach",
+      "linked_programs": [
+        {
+          "name": "University of Bonn Doctoral Studies",
+          "url": "https://www.uni-bonn.de/en/research/graduate-studies",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Sergey I. Bokarev",
+        "openalex_author_id": "https://openalex.org/A5003849497",
+        "orcid": "https://orcid.org/0000-0003-0779-5013",
+        "institution": "University of Rostock",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Computational Chemistry"
+      },
+      "research_area": "Computational Chemistry",
+      "evidence": {
+        "papers": [
+          {
+            "title": "The OpenMolcas <i>Web</i> : A Community-Driven Approach to Advancing Computational Chemistry",
+            "year": 2023,
+            "doi": "https://doi.org/10.1021/acs.jctc.3c00182",
+            "url": "https://doi.org/https://doi.org/10.1021/acs.jctc.3c00182",
+            "openalex_id": "https://openalex.org/W4377292669",
+            "relevance_note": "Matches your use case: computational chemistry"
+          },
+          {
+            "title": "The OpenMolcas Web: A Community-Driven Approach to Advancing Computational Chemistry",
+            "year": 2023,
+            "doi": "https://doi.org/10.26434/chemrxiv-2023-b7f0j",
+            "url": "https://doi.org/https://doi.org/10.26434/chemrxiv-2023-b7f0j",
+            "openalex_id": "https://openalex.org/W4320728701",
+            "relevance_note": "Matches your use case: computational chemistry"
+          },
+          {
+            "title": "The OpenMolcas Web: A Community-Driven Approach to Advancing Computational Chemistry",
+            "year": 2023,
+            "doi": "https://doi.org/10.26434/chemrxiv-2023-b7f0j-v2",
+            "url": "https://doi.org/https://doi.org/10.26434/chemrxiv-2023-b7f0j-v2",
+            "openalex_id": "https://openalex.org/W4365145107",
+            "relevance_note": "Matches your use case: computational chemistry"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on computational chemistry, as seen in The OpenMolcas Web: A Community-Driven Approach to Advancing Computational Chemistry.",
+      "match_score": 1.0,
+      "tier": "reach",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Emiliano Ippoliti",
+        "openalex_author_id": "https://openalex.org/A5040648145",
+        "orcid": "https://orcid.org/0000-0001-5513-8056",
+        "institution": "Forschungszentrum Jülich",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Computational Chemistry"
+      },
+      "research_area": "Computational Chemistry",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Drug Design in the Exascale Era: A Perspective from Massively Parallel QM/MM Simulations",
+            "year": 2023,
+            "doi": "https://doi.org/10.1021/acs.jcim.3c00557",
+            "url": "https://doi.org/https://doi.org/10.1021/acs.jcim.3c00557",
+            "openalex_id": "https://openalex.org/W4380852853",
+            "relevance_note": "Matches your use case: drug discovery"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's proficiency in PyTorch and graph neural networks makes them a strong match for the professor's work on drug discovery, as seen in their paper Drug Design in the Exascale Era.",
+      "match_score": 1.0,
+      "tier": "reach",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Jan‐Michael Mewes",
+        "openalex_author_id": "https://openalex.org/A5058947613",
+        "orcid": "https://orcid.org/0000-0002-4669-8091",
+        "institution": "University of Bonn",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Computational Chemistry"
+      },
+      "research_area": "Computational Chemistry",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Best‐Practice DFT Protocols for Basic Molecular Computational Chemistry**",
+            "year": 2022,
+            "doi": "https://doi.org/10.1002/anie.202205735",
+            "url": "https://doi.org/https://doi.org/10.1002/anie.202205735",
+            "openalex_id": "https://openalex.org/W4295779282",
+            "relevance_note": "Matches your use case: molecular property prediction; computational chemistry"
+          },
+          {
+            "title": "Best‐Practice DFT Protocols for Basic Molecular Computational Chemistry**",
+            "year": 2022,
+            "doi": "https://doi.org/10.1002/ange.202205735",
+            "url": "https://doi.org/https://doi.org/10.1002/ange.202205735",
+            "openalex_id": "https://openalex.org/W4295780932",
+            "relevance_note": "Matches your use case: molecular property prediction; computational chemistry"
+          },
+          {
+            "title": "Best Practice DFT Protocols for Basic Molecular Computational Chemistry",
+            "year": 2022,
+            "doi": "https://doi.org/10.26434/chemrxiv-2022-n304h",
+            "url": "https://doi.org/https://doi.org/10.26434/chemrxiv-2022-n304h",
+            "openalex_id": "https://openalex.org/W4224298425",
+            "relevance_note": "Matches your use case: molecular property prediction; computational chemistry"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch and graph neural networks makes them a strong match for a professor who has published \"Best‐Practice DFT Protocols for Basic Molecular Computational Chemistry\", particularly in molecular property prediction.",
+      "match_score": 1.0,
+      "tier": "reach",
+      "linked_programs": [
+        {
+          "name": "University of Bonn Doctoral Studies",
+          "url": "https://www.uni-bonn.de/en/research/graduate-studies",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Francesco Aquilante",
+        "openalex_author_id": "https://openalex.org/A5000956911",
+        "orcid": "https://orcid.org/0000-0003-4422-3938",
+        "institution": "École Polytechnique Fédérale de Lausanne",
+        "country": "CH",
+        "contact_email": null,
+        "research_focus": "Computational Chemistry"
+      },
+      "research_area": "Computational Chemistry",
+      "evidence": {
+        "papers": [
+          {
+            "title": "The OpenMolcas <i>Web</i> : A Community-Driven Approach to Advancing Computational Chemistry",
+            "year": 2023,
+            "doi": "https://doi.org/10.1021/acs.jctc.3c00182",
+            "url": "https://doi.org/https://doi.org/10.1021/acs.jctc.3c00182",
+            "openalex_id": "https://openalex.org/W4377292669",
+            "relevance_note": "Matches your use case: computational chemistry"
+          },
+          {
+            "title": "The OpenMolcas Web: A Community-Driven Approach to Advancing Computational Chemistry",
+            "year": 2023,
+            "doi": "https://doi.org/10.26434/chemrxiv-2023-b7f0j",
+            "url": "https://doi.org/https://doi.org/10.26434/chemrxiv-2023-b7f0j",
+            "openalex_id": "https://openalex.org/W4320728701",
+            "relevance_note": "Matches your use case: computational chemistry"
+          },
+          {
+            "title": "The OpenMolcas Web: A Community-Driven Approach to Advancing Computational Chemistry",
+            "year": 2023,
+            "doi": "https://doi.org/10.26434/chemrxiv-2023-b7f0j-v2",
+            "url": "https://doi.org/https://doi.org/10.26434/chemrxiv-2023-b7f0j-v2",
+            "openalex_id": "https://openalex.org/W4365145107",
+            "relevance_note": "Matches your use case: computational chemistry"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student is a strong match for the professor due to their proficiency in PyTorch and graph neural networks, which could contribute to advancing computational chemistry as explored in The OpenMolcas Web: A Community-Driven Approach to Advancing Computational Chemistry.",
+      "match_score": 1.0,
+      "tier": "reach",
+      "linked_programs": [
+        {
+          "name": "École Polytechnique Doctoral Programs",
+          "url": "https://programmes.polytechnique.edu/en/phd",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Karl N. Kirschner",
+        "openalex_author_id": "https://openalex.org/A5000728064",
+        "orcid": "https://orcid.org/0000-0002-4581-920X",
+        "institution": "Hochschule Bonn-Rhein-Sieg",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Computational Chemistry"
+      },
+      "research_area": "Computational Chemistry",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Open-Source Machine Learning in Computational Chemistry",
+            "year": 2023,
+            "doi": "https://doi.org/10.1021/acs.jcim.3c00643",
+            "url": "https://doi.org/https://doi.org/10.1021/acs.jcim.3c00643",
+            "openalex_id": "https://openalex.org/W4384663992",
+            "relevance_note": "Matches your use case: computational chemistry"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch and graph neural networks makes them a strong match for the professor's work on Open-Source Machine Learning in Computational Chemistry.",
+      "match_score": 1.0,
+      "tier": "reach",
+      "linked_programs": [
+        {
+          "name": "University of Bonn Doctoral Studies",
+          "url": "https://www.uni-bonn.de/en/research/graduate-studies",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Elie Akanny",
+        "openalex_author_id": "https://openalex.org/A5093657416",
+        "orcid": null,
+        "institution": "Henkel (Germany)",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Graph Neural Networks"
+      },
+      "research_area": "Graph Neural Networks",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Graph neural networks for surfactant multi-property prediction",
+            "year": 2024,
+            "doi": "https://doi.org/10.1016/j.colsurfa.2024.134133",
+            "url": "https://doi.org/https://doi.org/10.1016/j.colsurfa.2024.134133",
+            "openalex_id": "https://openalex.org/W4396621255",
+            "relevance_note": "Matches your use case: molecular property prediction"
+          },
+          {
+            "title": "Predicting the Temperature Dependence of Surfactant CMCs Using Graph Neural Networks",
+            "year": 2024,
+            "doi": "https://doi.org/10.1021/acs.jctc.4c00314",
+            "url": "https://doi.org/https://doi.org/10.1021/acs.jctc.4c00314",
+            "openalex_id": "https://openalex.org/W4392613690",
+            "relevance_note": null
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's proficiency in graph neural networks, particularly with PyTorch Geometric and DimeNet++, makes them a strong match for the professor's work on Graph neural networks for surfactant multi-property prediction.",
+      "match_score": 0.7716,
+      "tier": "reach",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Paolo Carloni",
+        "openalex_author_id": "https://openalex.org/A5043471682",
+        "orcid": "https://orcid.org/0000-0002-9010-0149",
+        "institution": "Forschungszentrum Jülich",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Computational Chemistry"
+      },
+      "research_area": "Computational Chemistry",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Drug Design in the Exascale Era: A Perspective from Massively Parallel QM/MM Simulations",
+            "year": 2023,
+            "doi": "https://doi.org/10.1021/acs.jcim.3c00557",
+            "url": "https://doi.org/https://doi.org/10.1021/acs.jcim.3c00557",
+            "openalex_id": "https://openalex.org/W4380852853",
+            "relevance_note": "Matches your use case: drug discovery"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on drug discovery, as seen in their paper Drug Design in the Exascale Era.",
+      "match_score": 1.0,
+      "tier": "reach",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Ansgar Schuffenhauer",
+        "openalex_author_id": "https://openalex.org/A5029464406",
+        "orcid": "https://orcid.org/0000-0001-6385-0414",
+        "institution": "Novartis (Switzerland)",
+        "country": "CH",
+        "contact_email": null,
+        "research_focus": "AI for Drug Discovery"
+      },
+      "research_area": "AI for Drug Discovery",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Industry-Scale Orchestrated Federated Learning for Drug Discovery",
+            "year": 2023,
+            "doi": "https://doi.org/10.1609/aaai.v37i13.26847",
+            "url": "https://doi.org/https://doi.org/10.1609/aaai.v37i13.26847",
+            "openalex_id": "https://openalex.org/W4382318866",
+            "relevance_note": "Matches your use case: drug discovery"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch and graph neural networks makes them a strong match for the professor's work on Industry-Scale Orchestrated Federated Learning for Drug Discovery.",
+      "match_score": 0.7745,
+      "tier": "reach",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Christoforos Brozos",
+        "openalex_author_id": "https://openalex.org/A5093657415",
+        "orcid": "https://orcid.org/0009-0005-6455-7611",
+        "institution": "Henkel (Germany)",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Graph Neural Networks"
+      },
+      "research_area": "Graph Neural Networks",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Graph neural networks for surfactant multi-property prediction",
+            "year": 2024,
+            "doi": "https://doi.org/10.1016/j.colsurfa.2024.134133",
+            "url": "https://doi.org/https://doi.org/10.1016/j.colsurfa.2024.134133",
+            "openalex_id": "https://openalex.org/W4396621255",
+            "relevance_note": "Matches your use case: molecular property prediction"
+          },
+          {
+            "title": "Predicting the Temperature Dependence of Surfactant CMCs Using Graph Neural Networks",
+            "year": 2024,
+            "doi": "https://doi.org/10.1021/acs.jctc.4c00314",
+            "url": "https://doi.org/https://doi.org/10.1021/acs.jctc.4c00314",
+            "openalex_id": "https://openalex.org/W4392613690",
+            "relevance_note": null
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's proficiency in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on Graph neural networks for surfactant multi-property prediction.",
+      "match_score": 0.7716,
+      "tier": "reach",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Fernando A. Meireles",
+        "openalex_author_id": "https://openalex.org/A5097424077",
+        "orcid": null,
+        "institution": "SIB Swiss Institute of Bioinformatics",
+        "country": "CH",
+        "contact_email": null,
+        "research_focus": "Geometric Deep Learning"
+      },
+      "research_area": "Geometric Deep Learning",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Context-aware geometric deep learning for protein sequence design",
+            "year": 2024,
+            "doi": "https://doi.org/10.1038/s41467-024-50571-y",
+            "url": "https://doi.org/https://doi.org/10.1038/s41467-024-50571-y",
+            "openalex_id": "https://openalex.org/W4400985732",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          },
+          {
+            "title": "Context-aware geometric deep learning for protein sequence design",
+            "year": 2023,
+            "doi": "https://doi.org/10.1101/2023.06.19.545381",
+            "url": "https://doi.org/https://doi.org/10.1101/2023.06.19.545381",
+            "openalex_id": "https://openalex.org/W4381185597",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on Context-aware geometric deep learning for protein sequence design.",
+      "match_score": 0.8454,
+      "tier": "reach",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Sarah Vacle",
+        "openalex_author_id": "https://openalex.org/A5105081953",
+        "orcid": null,
+        "institution": "SIB Swiss Institute of Bioinformatics",
+        "country": "CH",
+        "contact_email": null,
+        "research_focus": "Geometric Deep Learning"
+      },
+      "research_area": "Geometric Deep Learning",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Context-aware geometric deep learning for protein sequence design",
+            "year": 2024,
+            "doi": "https://doi.org/10.1038/s41467-024-50571-y",
+            "url": "https://doi.org/https://doi.org/10.1038/s41467-024-50571-y",
+            "openalex_id": "https://openalex.org/W4400985732",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on Context-aware geometric deep learning for protein sequence design.",
+      "match_score": 0.8156,
+      "tier": "reach",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Helena Brinkmann",
+        "openalex_author_id": "https://openalex.org/A5047766593",
+        "orcid": "https://orcid.org/0009-0003-8865-442X",
+        "institution": "Eindhoven University of Technology",
+        "country": "NL",
+        "contact_email": null,
+        "research_focus": "AI for Drug Discovery"
+      },
+      "research_area": "AI for Drug Discovery",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Deep learning for low-data drug discovery: Hurdles and opportunities",
+            "year": 2024,
+            "doi": "https://doi.org/10.1016/j.sbi.2024.102818",
+            "url": "https://doi.org/https://doi.org/10.1016/j.sbi.2024.102818",
+            "openalex_id": "https://openalex.org/W4395481566",
+            "relevance_note": "Matches your use case: drug discovery"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's proficiency in PyTorch and graph neural networks makes them a strong match for the professor's work on \"Deep learning for low-data drug discovery: Hurdles and opportunities\".",
+      "match_score": 0.7604,
+      "tier": "reach",
+      "linked_programs": [
+        {
+          "name": "TU/e PhD Programs",
+          "url": "https://www.tue.nl/en/education/phd",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Max Welling",
+        "openalex_author_id": "https://openalex.org/A5087368991",
+        "orcid": "https://orcid.org/0000-0003-1484-2121",
+        "institution": "Microsoft (Netherlands)",
+        "country": "NL",
+        "contact_email": null,
+        "research_focus": "Geometric Deep Learning"
+      },
+      "research_area": "Geometric Deep Learning",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Scientific discovery in the age of artificial intelligence",
+            "year": 2023,
+            "doi": "https://doi.org/10.1038/s41586-023-06221-2",
+            "url": "https://doi.org/https://doi.org/10.1038/s41586-023-06221-2",
+            "openalex_id": "https://openalex.org/W4385490607",
+            "relevance_note": "Matches your use case: drug discovery"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch and graph neural networks makes them a strong match for the professor, whose paper \"Scientific discovery in the age of artificial intelligence\" explores AI applications in drug discovery.",
+      "match_score": 0.7567,
+      "tier": "reach",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Jean Devillard",
+        "openalex_author_id": "https://openalex.org/A5105065676",
+        "orcid": null,
+        "institution": "École Polytechnique Fédérale de Lausanne",
+        "country": "CH",
+        "contact_email": null,
+        "research_focus": "Geometric Deep Learning"
+      },
+      "research_area": "Geometric Deep Learning",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Context-aware geometric deep learning for protein sequence design",
+            "year": 2024,
+            "doi": "https://doi.org/10.1038/s41467-024-50571-y",
+            "url": "https://doi.org/https://doi.org/10.1038/s41467-024-50571-y",
+            "openalex_id": "https://openalex.org/W4400985732",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on Context-aware geometric deep learning for protein sequence design.",
+      "match_score": 0.8156,
+      "tier": "reach",
+      "linked_programs": [
+        {
+          "name": "École Polytechnique Doctoral Programs",
+          "url": "https://programmes.polytechnique.edu/en/phd",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "David F. Nippa",
+        "openalex_author_id": "https://openalex.org/A5055127360",
+        "orcid": "https://orcid.org/0000-0002-0346-3786",
+        "institution": "Roche (Switzerland)",
+        "country": "CH",
+        "contact_email": null,
+        "research_focus": "AI for Drug Discovery"
+      },
+      "research_area": "AI for Drug Discovery",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Prospective de novo drug design with deep interactome learning",
+            "year": 2024,
+            "doi": "https://doi.org/10.1038/s41467-024-47613-w",
+            "url": "https://doi.org/https://doi.org/10.1038/s41467-024-47613-w",
+            "openalex_id": "https://openalex.org/W4394994059",
+            "relevance_note": "Matches your use case: drug discovery"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's proficiency in PyTorch and graph neural networks makes them a strong match for the professor's work on Prospective de novo drug design with deep interactome learning.",
+      "match_score": 0.7687,
+      "tier": "reach",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Francesca Grisoni",
+        "openalex_author_id": "https://openalex.org/A5078946433",
+        "orcid": "https://orcid.org/0000-0001-8552-6615",
+        "institution": "ETH Zurich",
+        "country": "NL",
+        "contact_email": null,
+        "research_focus": "Geometric Deep Learning"
+      },
+      "research_area": "Geometric Deep Learning",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Deep learning for low-data drug discovery: Hurdles and opportunities",
+            "year": 2024,
+            "doi": "https://doi.org/10.1016/j.sbi.2024.102818",
+            "url": "https://doi.org/https://doi.org/10.1016/j.sbi.2024.102818",
+            "openalex_id": "https://openalex.org/W4395481566",
+            "relevance_note": "Matches your use case: drug discovery"
+          },
+          {
+            "title": "Structure‐Based Drug Discovery with Deep Learning**",
+            "year": 2023,
+            "doi": "https://doi.org/10.1002/cbic.202200776",
+            "url": "https://doi.org/https://doi.org/10.1002/cbic.202200776",
+            "openalex_id": "https://openalex.org/W4362522288",
+            "relevance_note": "Matches your use case: drug discovery"
+          },
+          {
+            "title": "Exposing the Limitations of Molecular Machine Learning with Activity Cliffs",
+            "year": 2022,
+            "doi": "https://doi.org/10.1021/acs.jcim.2c01073",
+            "url": "https://doi.org/https://doi.org/10.1021/acs.jcim.2c01073",
+            "openalex_id": "https://openalex.org/W4310603653",
+            "relevance_note": "Matches your use case: molecular property prediction"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch and graph neural networks makes them a strong match for the professor's work on \"Deep learning for low-data drug discovery: Hurdles and opportunities\".",
+      "match_score": 0.7498,
+      "tier": "target",
+      "linked_programs": [
+        {
+          "name": "ETH Zürich Doctoral Studies",
+          "url": "https://ethz.ch/en/doctorate.html",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Tammo Dukker",
+        "openalex_author_id": "https://openalex.org/A5106811468",
+        "orcid": null,
+        "institution": "Delft University of Technology",
+        "country": "NL",
+        "contact_email": null,
+        "research_focus": "Graph Neural Networks"
+      },
+      "research_area": "Graph Neural Networks",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Self-supervised graph neural networks for polymer property prediction",
+            "year": 2024,
+            "doi": "https://doi.org/10.1039/d4me00088a",
+            "url": "https://doi.org/https://doi.org/10.1039/d4me00088a",
+            "openalex_id": "https://openalex.org/W4402007894",
+            "relevance_note": "Matches your use case: molecular property prediction"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in graph neural networks, particularly PyTorch Geometric and DimeNet++, makes them a strong match for the professor's work on self-supervised graph neural networks for polymer property prediction.",
+      "match_score": 0.7485,
+      "tier": "target",
+      "linked_programs": [
+        {
+          "name": "TU Delft PhD Programs",
+          "url": "https://www.tudelft.nl/en/education/phd-education",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Sebastiaan Nicolas Jonkman",
+        "openalex_author_id": "https://openalex.org/A5073070744",
+        "orcid": null,
+        "institution": "Delft University of Technology",
+        "country": "NL",
+        "contact_email": null,
+        "research_focus": "Graph Neural Networks"
+      },
+      "research_area": "Graph Neural Networks",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Multi-scale hydraulic graph neural networks for flood modelling",
+            "year": 2025,
+            "doi": "https://doi.org/10.5194/nhess-25-335-2025",
+            "url": "https://doi.org/https://doi.org/10.5194/nhess-25-335-2025",
+            "openalex_id": "https://openalex.org/W4406741633",
+            "relevance_note": null
+          },
+          {
+            "title": "Rapid spatio-temporal flood modelling via hydraulics-based graph neural networks",
+            "year": 2023,
+            "doi": "https://doi.org/10.5194/hess-27-4227-2023",
+            "url": "https://doi.org/https://doi.org/10.5194/hess-27-4227-2023",
+            "openalex_id": "https://openalex.org/W4389217871",
+            "relevance_note": null
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's experience with graph neural networks, particularly PyTorch Geometric, makes them a strong match for the professor's research, as seen in their paper \"Multi-scale hydraulic graph neural networks for flood modelling\".",
+      "match_score": 0.717,
+      "tier": "target",
+      "linked_programs": [
+        {
+          "name": "TU Delft PhD Programs",
+          "url": "https://www.tudelft.nl/en/education/phd-education",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Maja Mockenhaupt",
+        "openalex_author_id": "https://openalex.org/A5057255807",
+        "orcid": "https://orcid.org/0000-0002-6596-1684",
+        "institution": "University of Freiburg",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "AI for Drug Discovery"
+      },
+      "research_area": "AI for Drug Discovery",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Updates on the immunopathology and genomics of severe cutaneous adverse drug reactions",
+            "year": 2023,
+            "doi": "https://doi.org/10.1016/j.jaci.2022.12.005",
+            "url": "https://doi.org/https://doi.org/10.1016/j.jaci.2022.12.005",
+            "openalex_id": "https://openalex.org/W4319065632",
+            "relevance_note": "Matches your use case: drug discovery"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work in drug discovery, as seen in Updates on the immunopathology and genomics of severe cutaneous adverse drug reactions.",
+      "match_score": 0.7125,
+      "tier": "target",
+      "linked_programs": [
+        {
+          "name": "University of Freiburg Graduate Schools",
+          "url": "https://www.uni-freiburg.de/en/research/graduate-education",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Jessica Lanini",
+        "openalex_author_id": "https://openalex.org/A5006854022",
+        "orcid": "https://orcid.org/0009-0007-9194-008X",
+        "institution": "Novartis (Switzerland)",
+        "country": "CH",
+        "contact_email": null,
+        "research_focus": "AI for Drug Discovery"
+      },
+      "research_area": "AI for Drug Discovery",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Machine learning for small molecule drug discovery in academia and industry",
+            "year": 2023,
+            "doi": "https://doi.org/10.1016/j.ailsci.2022.100056",
+            "url": "https://doi.org/https://doi.org/10.1016/j.ailsci.2022.100056",
+            "openalex_id": "https://openalex.org/W4313556676",
+            "relevance_note": "Matches your use case: drug discovery"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch and graph neural networks makes them a strong match for the professor's work on machine learning for small molecule drug discovery in academia and industry.",
+      "match_score": 0.7095,
+      "tier": "target",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Derek van Tilborg",
+        "openalex_author_id": "https://openalex.org/A5087157931",
+        "orcid": "https://orcid.org/0000-0003-4473-0657",
+        "institution": "Eindhoven University of Technology",
+        "country": "NL",
+        "contact_email": null,
+        "research_focus": "AI for Drug Discovery"
+      },
+      "research_area": "AI for Drug Discovery",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Deep learning for low-data drug discovery: Hurdles and opportunities",
+            "year": 2024,
+            "doi": "https://doi.org/10.1016/j.sbi.2024.102818",
+            "url": "https://doi.org/https://doi.org/10.1016/j.sbi.2024.102818",
+            "openalex_id": "https://openalex.org/W4395481566",
+            "relevance_note": "Matches your use case: drug discovery"
+          },
+          {
+            "title": "Structure‐Based Drug Discovery with Deep Learning**",
+            "year": 2023,
+            "doi": "https://doi.org/10.1002/cbic.202200776",
+            "url": "https://doi.org/https://doi.org/10.1002/cbic.202200776",
+            "openalex_id": "https://openalex.org/W4362522288",
+            "relevance_note": "Matches your use case: drug discovery"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch and graph neural networks makes them a strong match for the professor, whose work includes the paper \"Deep learning for low-data drug discovery: Hurdles and opportunities\".",
+      "match_score": 0.7718,
+      "tier": "reach",
+      "linked_programs": [
+        {
+          "name": "TU/e PhD Programs",
+          "url": "https://www.tue.nl/en/education/phd",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Yojana Gadiya",
+        "openalex_author_id": "https://openalex.org/A5004719764",
+        "orcid": "https://orcid.org/0000-0002-7683-0452",
+        "institution": "University of Bonn",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "AI for Drug Discovery"
+      },
+      "research_area": "AI for Drug Discovery",
+      "evidence": {
+        "papers": [
+          {
+            "title": "FAIR data management: what does it mean for drug discovery?",
+            "year": 2023,
+            "doi": "https://doi.org/10.3389/fddsv.2023.1226727",
+            "url": "https://doi.org/https://doi.org/10.3389/fddsv.2023.1226727",
+            "openalex_id": "https://openalex.org/W4384023572",
+            "relevance_note": "Matches your use case: drug discovery"
+          },
+          {
+            "title": "Selection of data sets for FAIRification in drug discovery and development: Which, why, and how?",
+            "year": 2022,
+            "doi": "https://doi.org/10.1016/j.drudis.2022.05.010",
+            "url": "https://doi.org/https://doi.org/10.1016/j.drudis.2022.05.010",
+            "openalex_id": "https://openalex.org/W4280551616",
+            "relevance_note": "Matches your use case: drug discovery"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's experience with PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on drug discovery, as seen in the paper FAIR data management: what does it mean for drug discovery?.",
+      "match_score": 0.7414,
+      "tier": "target",
+      "linked_programs": [
+        {
+          "name": "University of Bonn Doctoral Studies",
+          "url": "https://www.uni-bonn.de/en/research/graduate-studies",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Johannes Gasteiger",
+        "openalex_author_id": "https://openalex.org/A5080021785",
+        "orcid": "https://orcid.org/0000-0001-9388-6389",
+        "institution": "Technical University of Munich",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Graph Neural Networks"
+      },
+      "research_area": "Graph Neural Networks",
+      "evidence": {
+        "papers": [
+          {
+            "title": "How robust are modern graph neural network potentials in long and hot molecular dynamics simulations?",
+            "year": 2022,
+            "doi": "https://doi.org/10.1088/2632-2153/ac9955",
+            "url": "https://doi.org/https://doi.org/10.1088/2632-2153/ac9955",
+            "openalex_id": "https://openalex.org/W4304588537",
+            "relevance_note": "Matches your use case: molecular property prediction"
+          },
+          {
+            "title": "How Robust are Modern Graph Neural Network Potentials in Long and Hot Molecular Dynamics Simulations?",
+            "year": 2022,
+            "doi": "https://doi.org/10.26434/chemrxiv-2022-mc4gb",
+            "url": "https://doi.org/https://doi.org/10.26434/chemrxiv-2022-mc4gb",
+            "openalex_id": "https://openalex.org/W4220748198",
+            "relevance_note": "Matches your use case: molecular property prediction"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "Your background in PyTorch directly relates to Prof. Johannes Gasteiger's paper \"How robust are modern graph neural network potentials in long and hot molecular dynamics simulations?\".",
+      "match_score": 0.8177,
+      "tier": "reach",
+      "linked_programs": [
+        {
+          "name": "TU Munich Doctoral Program",
+          "url": "https://www.tum.de/en/research/doctoral-programs",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Daniil Lepikhov",
+        "openalex_author_id": "https://openalex.org/A5093425620",
+        "orcid": "https://orcid.org/0009-0001-1797-0850",
+        "institution": "Radboud University Nijmegen",
+        "country": "NL",
+        "contact_email": null,
+        "research_focus": "Geometric Deep Learning"
+      },
+      "research_area": "Geometric Deep Learning",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Geometric deep learning improves generalizability of MHC-bound peptide predictions",
+            "year": 2024,
+            "doi": "https://doi.org/10.1038/s42003-024-07292-1",
+            "url": "https://doi.org/https://doi.org/10.1038/s42003-024-07292-1",
+            "openalex_id": "https://openalex.org/W4405577048",
+            "relevance_note": "Matches your use case: molecular property prediction"
+          },
+          {
+            "title": "Improving generalizability for MHC-I binding peptide predictions through geometric deep learning",
+            "year": 2023,
+            "doi": "https://doi.org/10.1101/2023.12.04.569776",
+            "url": "https://doi.org/https://doi.org/10.1101/2023.12.04.569776",
+            "openalex_id": "https://openalex.org/W4389356630",
+            "relevance_note": "Matches your use case: protein-ligand binding; molecular property prediction"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "Your background in PyTorch directly relates to Prof. Daniil Lepikhov's paper \"Geometric deep learning improves generalizability of MHC-bound peptide predictions\".",
+      "match_score": 0.7931,
+      "tier": "reach",
+      "linked_programs": [
+        {
+          "name": "Radboud University Graduate School",
+          "url": "https://www.ru.nl/en/education/graduate-school",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Jan G. Rittig",
+        "openalex_author_id": "https://openalex.org/A5040905250",
+        "orcid": "https://orcid.org/0000-0003-4645-5716",
+        "institution": "RWTH Aachen University",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Graph Neural Networks"
+      },
+      "research_area": "Graph Neural Networks",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Graph neural networks for surfactant multi-property prediction",
+            "year": 2024,
+            "doi": "https://doi.org/10.1016/j.colsurfa.2024.134133",
+            "url": "https://doi.org/https://doi.org/10.1016/j.colsurfa.2024.134133",
+            "openalex_id": "https://openalex.org/W4396621255",
+            "relevance_note": "Matches your use case: molecular property prediction"
+          },
+          {
+            "title": "Thermodynamics-consistent graph neural networks",
+            "year": 2024,
+            "doi": "https://doi.org/10.1039/d4sc04554h",
+            "url": "https://doi.org/https://doi.org/10.1039/d4sc04554h",
+            "openalex_id": "https://openalex.org/W4403494582",
+            "relevance_note": null
+          },
+          {
+            "title": "Predicting the Temperature Dependence of Surfactant CMCs Using Graph Neural Networks",
+            "year": 2024,
+            "doi": "https://doi.org/10.1021/acs.jctc.4c00314",
+            "url": "https://doi.org/https://doi.org/10.1021/acs.jctc.4c00314",
+            "openalex_id": "https://openalex.org/W4392613690",
+            "relevance_note": null
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in graph neural networks, particularly with PyTorch Geometric and DimeNet++, makes them a strong match for the professor's work on Graph neural networks for surfactant multi-property prediction.",
+      "match_score": 0.7616,
+      "tier": "reach",
+      "linked_programs": [
+        {
+          "name": "RWTH Aachen Doctoral Studies",
+          "url": "https://www.rwth-aachen.de/cms/root/research/~eoe/doctoral-studies",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Nisha Sharma",
+        "openalex_author_id": "https://openalex.org/A5074750567",
+        "orcid": "https://orcid.org/0009-0006-4755-1039",
+        "institution": "Friedrich Schiller University Jena",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Cheminformatics"
+      },
+      "research_area": "Cheminformatics",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Cheminformatics Microservice V3: a web portal for chemical structure manipulation and analysis",
+            "year": 2025,
+            "doi": "https://doi.org/10.1186/s13321-025-01094-1",
+            "url": "https://doi.org/https://doi.org/10.1186/s13321-025-01094-1",
+            "openalex_id": "https://openalex.org/W4414419883",
+            "relevance_note": "Matches your use case: cheminformatics"
+          },
+          {
+            "title": "Cheminformatics Microservice V-3: A Web Portal for Chemical Structure Manipulation and Analysis",
+            "year": 2025,
+            "doi": "https://doi.org/10.26434/chemrxiv-2025-xjkxl",
+            "url": "https://doi.org/https://doi.org/10.26434/chemrxiv-2025-xjkxl",
+            "openalex_id": "https://openalex.org/W4411108256",
+            "relevance_note": "Matches your use case: cheminformatics"
+          },
+          {
+            "title": "COCONUT 2.0: a comprehensive overhaul and curation of the collection of open natural products database",
+            "year": 2024,
+            "doi": "https://doi.org/10.1093/nar/gkae1063",
+            "url": "https://doi.org/https://doi.org/10.1093/nar/gkae1063",
+            "openalex_id": "https://openalex.org/W4404707456",
+            "relevance_note": null
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "Your background in PyTorch directly relates to Prof. Nisha Sharma's paper \"Cheminformatics Microservice V3: a web portal for chemical structure manipulation and analysis\".",
+      "match_score": 0.9824,
+      "tier": "reach",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "A. Arun Raja",
+        "openalex_author_id": "https://openalex.org/A5035656894",
+        "orcid": null,
+        "institution": "Altana (Germany)",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Geometric Deep Learning"
+      },
+      "research_area": "Geometric Deep Learning",
+      "evidence": {
+        "papers": [
+          {
+            "title": "RCS Predictions Using Geometric Deep Learning",
+            "year": 2025,
+            "doi": "https://doi.org/10.23919/eucap63536.2025.10999884",
+            "url": "https://doi.org/https://doi.org/10.23919/eucap63536.2025.10999884",
+            "openalex_id": "https://openalex.org/W4410583543",
+            "relevance_note": "Matches your use case: molecular property prediction"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on RCS Predictions Using Geometric Deep Learning.",
+      "match_score": 0.7076,
+      "tier": "target",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Lukas Friedrich",
+        "openalex_author_id": "https://openalex.org/A5090953004",
+        "orcid": "https://orcid.org/0000-0001-6190-5418",
+        "institution": "Merck (Germany)",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "AI for Drug Discovery"
+      },
+      "research_area": "AI for Drug Discovery",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Industry-Scale Orchestrated Federated Learning for Drug Discovery",
+            "year": 2023,
+            "doi": "https://doi.org/10.1609/aaai.v37i13.26847",
+            "url": "https://doi.org/https://doi.org/10.1609/aaai.v37i13.26847",
+            "openalex_id": "https://openalex.org/W4382318866",
+            "relevance_note": "Matches your use case: drug discovery"
+          },
+          {
+            "title": "AIDDISON: Empowering Drug Discovery with AI/ML and CADD Tools in a Secure, Web-Based SaaS Platform",
+            "year": 2023,
+            "doi": "https://doi.org/10.1021/acs.jcim.3c01016",
+            "url": "https://doi.org/https://doi.org/10.1021/acs.jcim.3c01016",
+            "openalex_id": "https://openalex.org/W4390099254",
+            "relevance_note": "Matches your use case: drug discovery"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "Your background in PyTorch directly relates to Prof. Lukas Friedrich's paper \"Industry-Scale Orchestrated Federated Learning for Drug Discovery\".",
+      "match_score": 0.7686,
+      "tier": "reach",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Mina Ghadimi Atigh",
+        "openalex_author_id": "https://openalex.org/A5033280702",
+        "orcid": null,
+        "institution": "University of Amsterdam",
+        "country": "NL",
+        "contact_email": null,
+        "research_focus": "Geometric Deep Learning"
+      },
+      "research_area": "Geometric Deep Learning",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Hyperbolic Deep Learning in Computer Vision: A Survey",
+            "year": 2024,
+            "doi": "https://doi.org/10.1007/s11263-024-02043-5",
+            "url": "https://doi.org/https://doi.org/10.1007/s11263-024-02043-5",
+            "openalex_id": "https://openalex.org/W4393182987",
+            "relevance_note": null
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in graph neural networks, particularly with PyTorch Geometric, makes them a strong match for the professor who has published research in hyperbolic deep learning, as seen in their paper \"Hyperbolic Deep Learning in Computer Vision: A Survey\".",
+      "match_score": 0.6996,
+      "tier": "target",
+      "linked_programs": [
+        {
+          "name": "University of Amsterdam PhD",
+          "url": "https://www.uva.nl/en/research/phd",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Jana Vatter",
+        "openalex_author_id": "https://openalex.org/A5091981258",
+        "orcid": "https://orcid.org/0000-0002-5900-5709",
+        "institution": "Technical University of Munich",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Graph Neural Networks"
+      },
+      "research_area": "Graph Neural Networks",
+      "evidence": {
+        "papers": [
+          {
+            "title": "The Evolution of Distributed Systems for Graph Neural Networks and Their Origin in Graph Processing and Deep Learning: A Survey",
+            "year": 2023,
+            "doi": "https://doi.org/10.1145/3597428",
+            "url": "https://doi.org/https://doi.org/10.1145/3597428",
+            "openalex_id": "https://openalex.org/W4377099260",
+            "relevance_note": null
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in graph neural networks, particularly with PyTorch Geometric and DimeNet++, makes them a strong match for the professor's research, as seen in their 2023 survey paper on the evolution of distributed systems for graph neural networks.",
+      "match_score": 0.6748,
+      "tier": "target",
+      "linked_programs": [
+        {
+          "name": "TU Munich Doctoral Program",
+          "url": "https://www.tum.de/en/research/doctoral-programs",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Luke Rossen",
+        "openalex_author_id": "https://openalex.org/A5093789022",
+        "orcid": null,
+        "institution": "Eindhoven University of Technology",
+        "country": "NL",
+        "contact_email": null,
+        "research_focus": "AI for Drug Discovery"
+      },
+      "research_area": "AI for Drug Discovery",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Deep learning for low-data drug discovery: Hurdles and opportunities",
+            "year": 2024,
+            "doi": "https://doi.org/10.1016/j.sbi.2024.102818",
+            "url": "https://doi.org/https://doi.org/10.1016/j.sbi.2024.102818",
+            "openalex_id": "https://openalex.org/W4395481566",
+            "relevance_note": "Matches your use case: drug discovery"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch and graph neural networks makes them a strong match for the professor's work on \"Deep learning for low-data drug discovery: Hurdles and opportunities\".",
+      "match_score": 0.7579,
+      "tier": "reach",
+      "linked_programs": [
+        {
+          "name": "TU/e PhD Programs",
+          "url": "https://www.tue.nl/en/education/phd",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Stephanie Tiedt",
+        "openalex_author_id": "https://openalex.org/A5073977567",
+        "orcid": null,
+        "institution": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "AI for Drug Discovery"
+      },
+      "research_area": "AI for Drug Discovery",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Structure-based discovery of CFTR potentiators and inhibitors",
+            "year": 2024,
+            "doi": "https://doi.org/10.1016/j.cell.2024.04.046",
+            "url": "https://doi.org/https://doi.org/10.1016/j.cell.2024.04.046",
+            "openalex_id": "https://openalex.org/W4399107390",
+            "relevance_note": "Matches your use case: drug discovery"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on Structure-based discovery of CFTR potentiators and inhibitors.",
+      "match_score": 0.7015,
+      "tier": "target",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Medina-Ortiz David",
+        "openalex_author_id": "https://openalex.org/A5081814382",
+        "orcid": null,
+        "institution": "Leibniz Institute of Plant Biochemistry",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Geometric Deep Learning"
+      },
+      "research_area": "Geometric Deep Learning",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Geometric deep learning assists protein engineering. Opportunities and Challenges",
+            "year": 2025,
+            "doi": "https://doi.org/10.1016/j.biotechadv.2025.108790",
+            "url": "https://doi.org/https://doi.org/10.1016/j.biotechadv.2025.108790",
+            "openalex_id": "https://openalex.org/W7117294395",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on geometric deep learning, as seen in their paper Geometric deep learning assists protein engineering.",
+      "match_score": 0.7075,
+      "tier": "target",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Kristof T. Schütt",
+        "openalex_author_id": "https://openalex.org/A5084363234",
+        "orcid": "https://orcid.org/0000-0001-8342-0964",
+        "institution": "Technische Universität Berlin",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Graph Neural Networks"
+      },
+      "research_area": "Graph Neural Networks",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Equivariant diffusion for structure-based de novo ligand generation with latent-conditioning",
+            "year": 2025,
+            "doi": "https://doi.org/10.1186/s13321-025-01028-x",
+            "url": "https://doi.org/https://doi.org/10.1186/s13321-025-01028-x",
+            "openalex_id": "https://openalex.org/W4410914636",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          },
+          {
+            "title": "PILOT: equivariant diffusion for pocket-conditioned <i>de novo</i> ligand generation with multi-objective guidance <i>via</i> importance sampling",
+            "year": 2024,
+            "doi": "https://doi.org/10.1039/d4sc03523b",
+            "url": "https://doi.org/https://doi.org/10.1039/d4sc03523b",
+            "openalex_id": "https://openalex.org/W4402027346",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          },
+          {
+            "title": "A data science roadmap for open science organizations engaged in early-stage drug discovery",
+            "year": 2024,
+            "doi": "https://doi.org/10.1038/s41467-024-49777-x",
+            "url": "https://doi.org/https://doi.org/10.1038/s41467-024-49777-x",
+            "openalex_id": "https://openalex.org/W4400370724",
+            "relevance_note": "Matches your use case: drug discovery"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "Your background in PyTorch directly relates to Prof. Kristof T. Schütt's paper \"Equivariant diffusion for structure-based de novo ligand generation with latent-conditioning\".",
+      "match_score": 0.7524,
+      "tier": "reach",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Simone Aleandri",
+        "openalex_author_id": "https://openalex.org/A5053563424",
+        "orcid": "https://orcid.org/0000-0001-7190-1605",
+        "institution": "University of Bern",
+        "country": "CH",
+        "contact_email": null,
+        "research_focus": "AI for Drug Discovery"
+      },
+      "research_area": "AI for Drug Discovery",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Leveraging machine learning to streamline the development of liposomal drug delivery systems",
+            "year": 2024,
+            "doi": "https://doi.org/10.1016/j.jconrel.2024.10.065",
+            "url": "https://doi.org/https://doi.org/10.1016/j.jconrel.2024.10.065",
+            "openalex_id": "https://openalex.org/W4404052333",
+            "relevance_note": "Matches your use case: drug discovery"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch and graph neural networks makes them a strong match for the professor's work on Leveraging machine learning to streamline the development of liposomal drug delivery systems.",
+      "match_score": 0.656,
+      "tier": "target",
+      "linked_programs": [
+        {
+          "name": "University of Bern Graduate School",
+          "url": "https://www.unibe.ch/research/graduate_schools/index_eng.html",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Mehdi D. Davari",
+        "openalex_author_id": "https://openalex.org/A5121362504",
+        "orcid": null,
+        "institution": "Leibniz Institute of Plant Biochemistry",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Geometric Deep Learning"
+      },
+      "research_area": "Geometric Deep Learning",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Geometric deep learning assists protein engineering. Opportunities and Challenges",
+            "year": 2025,
+            "doi": "https://doi.org/10.1016/j.biotechadv.2025.108790",
+            "url": "https://doi.org/https://doi.org/10.1016/j.biotechadv.2025.108790",
+            "openalex_id": "https://openalex.org/W7117294395",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on geometric deep learning, as seen in their paper Geometric deep learning assists protein engineering.",
+      "match_score": 0.7075,
+      "tier": "target",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Luca Torresi",
+        "openalex_author_id": "https://openalex.org/A5062648581",
+        "orcid": "https://orcid.org/0000-0003-2205-6753",
+        "institution": "Karlsruhe Institute of Technology",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Graph Neural Networks"
+      },
+      "research_area": "Graph Neural Networks",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Graph neural networks for materials science and chemistry",
+            "year": 2022,
+            "doi": "https://doi.org/10.1038/s43246-022-00315-6",
+            "url": "https://doi.org/https://doi.org/10.1038/s43246-022-00315-6",
+            "openalex_id": "https://openalex.org/W4310273071",
+            "relevance_note": "Matches your use case: computational chemistry"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in graph neural networks, particularly with PyTorch Geometric and DimeNet++, makes them a strong match for the professor's work on Graph neural networks for materials science and chemistry.",
+      "match_score": 0.6479,
+      "tier": "target",
+      "linked_programs": [
+        {
+          "name": "KIT Graduate School",
+          "url": "https://www.kit.edu/kit/english/10380.php",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Giorgio Buzzanca",
+        "openalex_author_id": "https://openalex.org/A5099282591",
+        "orcid": null,
+        "institution": "Leiden University Medical Center",
+        "country": "NL",
+        "contact_email": null,
+        "research_focus": "Graph Neural Networks"
+      },
+      "research_area": "Graph Neural Networks",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Graph neural networks in histopathology: Emerging trends and future directions",
+            "year": 2025,
+            "doi": "https://doi.org/10.1016/j.media.2024.103444",
+            "url": "https://doi.org/https://doi.org/10.1016/j.media.2024.103444",
+            "openalex_id": "https://openalex.org/W4406140776",
+            "relevance_note": null
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch Geometric and graph neural networks makes them a strong match for the professor, who has published research on graph neural networks, as seen in their paper Graph neural networks in histopathology: Emerging trends and future directions.",
+      "match_score": 0.6442,
+      "tier": "target",
+      "linked_programs": [
+        {
+          "name": "Leiden University PhD Programmes",
+          "url": "https://www.universiteitleiden.nl/en/education/phd",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Sabrina Panhans",
+        "openalex_author_id": "https://openalex.org/A5092588182",
+        "orcid": null,
+        "institution": "Ludwig-Maximilians-Universität München",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Protein-Ligand Binding"
+      },
+      "research_area": "Protein-Ligand Binding",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Dissecting Mechanisms of Ligand Binding and Conformational Changes in the Glutamine-Binding Protein",
+            "year": 2024,
+            "doi": "https://doi.org/10.7554/elife.95304.1",
+            "url": "https://doi.org/https://doi.org/10.7554/elife.95304.1",
+            "openalex_id": "https://openalex.org/W4393160437",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          },
+          {
+            "title": "Dissecting Mechanisms of Ligand Binding and Conformational Changes in the Glutamine-Binding Protein",
+            "year": 2023,
+            "doi": "https://doi.org/10.1101/2023.08.02.551720",
+            "url": "https://doi.org/https://doi.org/10.1101/2023.08.02.551720",
+            "openalex_id": "https://openalex.org/W4385516449",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in graph neural networks, particularly with PyTorch Geometric, makes them a strong match for the professor's research on protein-ligand binding, as seen in their paper Dissecting Mechanisms of Ligand Binding and Conformational Changes in the Glutamine-Binding Protein.",
+      "match_score": 0.6581,
+      "tier": "target",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Oliver Brix",
+        "openalex_author_id": "https://openalex.org/A5036802878",
+        "orcid": null,
+        "institution": "Ludwig-Maximilians-Universität München",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Protein-Ligand Binding"
+      },
+      "research_area": "Protein-Ligand Binding",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Dissecting Mechanisms of Ligand Binding and Conformational Changes in the Glutamine-Binding Protein",
+            "year": 2024,
+            "doi": "https://doi.org/10.7554/elife.95304.1",
+            "url": "https://doi.org/https://doi.org/10.7554/elife.95304.1",
+            "openalex_id": "https://openalex.org/W4393160437",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          },
+          {
+            "title": "Dissecting Mechanisms of Ligand Binding and Conformational Changes in the Glutamine-Binding Protein",
+            "year": 2023,
+            "doi": "https://doi.org/10.1101/2023.08.02.551720",
+            "url": "https://doi.org/https://doi.org/10.1101/2023.08.02.551720",
+            "openalex_id": "https://openalex.org/W4385516449",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in graph neural networks, particularly with PyTorch Geometric, makes them a strong match for the professor's research on protein-ligand binding, as seen in their paper Dissecting Mechanisms of Ligand Binding and Conformational Changes in the Glutamine-Binding Protein.",
+      "match_score": 0.6596,
+      "tier": "target",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Maciej Besta",
+        "openalex_author_id": "https://openalex.org/A5056549312",
+        "orcid": "https://orcid.org/0000-0002-6550-7916",
+        "institution": "ETH Zurich",
+        "country": "CH",
+        "contact_email": null,
+        "research_focus": "Graph Neural Networks"
+      },
+      "research_area": "Graph Neural Networks",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Motif Prediction with Graph Neural Networks",
+            "year": 2022,
+            "doi": "https://doi.org/10.1145/3534678.3539343",
+            "url": "https://doi.org/https://doi.org/10.1145/3534678.3539343",
+            "openalex_id": "https://openalex.org/W3166619165",
+            "relevance_note": "Matches your use case: molecular property prediction"
+          },
+          {
+            "title": "Parallel and Distributed Graph Neural Networks: An In-Depth Concurrency Analysis",
+            "year": 2024,
+            "doi": "https://doi.org/10.1109/tpami.2023.3303431",
+            "url": "https://doi.org/https://doi.org/10.1109/tpami.2023.3303431",
+            "openalex_id": "https://openalex.org/W4392024605",
+            "relevance_note": null
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's experience with graph neural networks, particularly PyTorch Geometric and DimeNet++, makes them a strong match for the professor's work on Motif Prediction with Graph Neural Networks.",
+      "match_score": 0.6446,
+      "tier": "target",
+      "linked_programs": [
+        {
+          "name": "ETH Zürich Doctoral Studies",
+          "url": "https://ethz.ch/en/doctorate.html",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Pascal Kröger",
+        "openalex_author_id": "https://openalex.org/A5079398593",
+        "orcid": "https://orcid.org/0000-0001-8486-7485",
+        "institution": "University of Bayreuth",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Protein-Ligand Binding"
+      },
+      "research_area": "Protein-Ligand Binding",
+      "evidence": {
+        "papers": [
+          {
+            "title": "A comprehensive binding study illustrates ligand recognition in the periplasmic binding protein PotF",
+            "year": 2021,
+            "doi": "https://doi.org/10.1016/j.str.2020.12.005",
+            "url": "https://doi.org/https://doi.org/10.1016/j.str.2020.12.005",
+            "openalex_id": "https://openalex.org/W3118563749",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's proficiency in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on protein-ligand binding, as seen in A comprehensive binding study illustrates ligand recognition in the periplasmic binding protein PotF.",
+      "match_score": 0.6262,
+      "tier": "target",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Martin F. J. Wiefhoff",
+        "openalex_author_id": "https://openalex.org/A5071221493",
+        "orcid": "https://orcid.org/0000-0002-0565-819X",
+        "institution": "University of Bonn",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Protein-Ligand Binding"
+      },
+      "research_area": "Protein-Ligand Binding",
+      "evidence": {
+        "papers": [
+          {
+            "title": "A Chemical Biology Toolbox Targeting the Intracellular Binding Site of CCR9: Fluorescent Ligands, New Drug Leads and PROTACs",
+            "year": 2021,
+            "doi": "https://doi.org/10.1002/anie.202116782",
+            "url": "https://doi.org/https://doi.org/10.1002/anie.202116782",
+            "openalex_id": "https://openalex.org/W4200153171",
+            "relevance_note": "Matches your use case: drug discovery; protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "Your background in PyTorch directly relates to Prof. Martin F. J. Wiefhoff's paper \"A Chemical Biology Toolbox Targeting the Intracellular Binding Site of CCR9: Fluorescent Ligands, New Drug Leads and PROTACs\".",
+      "match_score": 0.7013,
+      "tier": "target",
+      "linked_programs": [
+        {
+          "name": "University of Bonn Doctoral Studies",
+          "url": "https://www.uni-bonn.de/en/research/graduate-studies",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Hannah Vogt",
+        "openalex_author_id": "https://openalex.org/A5025949887",
+        "orcid": null,
+        "institution": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Protein-Ligand Binding"
+      },
+      "research_area": "Protein-Ligand Binding",
+      "evidence": {
+        "papers": [
+          {
+            "title": "A Chemical Biology Toolbox Targeting the Intracellular Binding Site of CCR9: Fluorescent Ligands, New Drug Leads and PROTACs",
+            "year": 2021,
+            "doi": "https://doi.org/10.1002/anie.202116782",
+            "url": "https://doi.org/https://doi.org/10.1002/anie.202116782",
+            "openalex_id": "https://openalex.org/W4200153171",
+            "relevance_note": "Matches your use case: drug discovery; protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "Your background in PyTorch directly relates to Prof. Hannah Vogt's paper \"A Chemical Biology Toolbox Targeting the Intracellular Binding Site of CCR9: Fluorescent Ligands, New Drug Leads and PROTACs\".",
+      "match_score": 0.7036,
+      "tier": "target",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Jean Philip Filling",
+        "openalex_author_id": "https://openalex.org/A5120396502",
+        "orcid": null,
+        "institution": "Johannes Gutenberg University Mainz",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Equivariant Message Passing"
+      },
+      "research_area": "Equivariant Message Passing",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Tensor Channel Equivariant Graph Neural Networks for Molecular Polarizability Prediction",
+            "year": 2026,
+            "doi": null,
+            "url": "https://openalex.org/W7161917036",
+            "openalex_id": "https://openalex.org/W7161917036",
+            "relevance_note": "Matches your use case: molecular property prediction"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on Tensor Channel Equivariant Graph Neural Networks for Molecular Polarizability Prediction.",
+      "match_score": 0.557,
+      "tier": "target",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Víctor Bresó",
+        "openalex_author_id": "https://openalex.org/A5098824577",
+        "orcid": null,
+        "institution": "Heidelberg University",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Equivariant Message Passing"
+      },
+      "research_area": "Equivariant Message Passing",
+      "evidence": {
+        "papers": [
+          {
+            "title": "A Lorentz-equivariant transformer for all of the LHC",
+            "year": 2025,
+            "doi": "https://doi.org/10.21468/scipostphys.19.4.108",
+            "url": "https://doi.org/https://doi.org/10.21468/scipostphys.19.4.108",
+            "openalex_id": "https://openalex.org/W4415470816",
+            "relevance_note": null
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's experience with graph neural networks, such as DimeNet++, makes them a strong match for the professor who has worked on transformer models as seen in their paper A Lorentz-equivariant transformer for all of the LHC.",
+      "match_score": 0.4324,
+      "tier": "safety",
+      "linked_programs": [
+        {
+          "name": "Heidelberg Graduate School",
+          "url": "https://www.uni-heidelberg.de/en/research/graduate-education",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Zhongying Han",
+        "openalex_author_id": "https://openalex.org/A5000203446",
+        "orcid": null,
+        "institution": "Ludwig-Maximilians-Universität München",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Protein-Ligand Binding"
+      },
+      "research_area": "Protein-Ligand Binding",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Dissecting Mechanisms of Ligand Binding and Conformational Changes in the Glutamine-Binding Protein",
+            "year": 2024,
+            "doi": "https://doi.org/10.7554/elife.95304.1",
+            "url": "https://doi.org/https://doi.org/10.7554/elife.95304.1",
+            "openalex_id": "https://openalex.org/W4393160437",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          },
+          {
+            "title": "Dissecting Mechanisms of Ligand Binding and Conformational Changes in the Glutamine-Binding Protein",
+            "year": 2023,
+            "doi": "https://doi.org/10.1101/2023.08.02.551720",
+            "url": "https://doi.org/https://doi.org/10.1101/2023.08.02.551720",
+            "openalex_id": "https://openalex.org/W4385516449",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "Your background in PyTorch directly relates to Prof. Zhongying Han's paper \"Dissecting Mechanisms of Ligand Binding and Conformational Changes in the Glutamine-Binding Protein\".",
+      "match_score": 0.6615,
+      "tier": "target",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Jonas Hohaus",
+        "openalex_author_id": "https://openalex.org/A5099984587",
+        "orcid": "https://orcid.org/0009-0009-1403-5937",
+        "institution": "University of Tübingen",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Equivariant Message Passing"
+      },
+      "research_area": "Equivariant Message Passing",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Scalable E(3) Equivariant Graph Neural Networks for Particle Simulations",
+            "year": 2024,
+            "doi": "https://doi.org/10.5194/epsc2024-1087",
+            "url": "https://doi.org/https://doi.org/10.5194/epsc2024-1087",
+            "openalex_id": "https://openalex.org/W4400288265",
+            "relevance_note": null
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch Geometric and graph neural networks makes them a strong match for the professor's research, particularly in the context of the paper \"Scalable E(3) Equivariant Graph Neural Networks for Particle Simulations\".",
+      "match_score": 0.3667,
+      "tier": "safety",
+      "linked_programs": [
+        {
+          "name": "University of Tübingen Graduate Training",
+          "url": "https://www.uni-tuebingen.de/en/research/graduate-training.html",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Li C. Xue",
+        "openalex_author_id": "https://openalex.org/A5086880868",
+        "orcid": "https://orcid.org/0000-0002-2613-538X",
+        "institution": "Radboud University Nijmegen",
+        "country": "NL",
+        "contact_email": null,
+        "research_focus": "Geometric Deep Learning"
+      },
+      "research_area": "Geometric Deep Learning",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Geometric deep learning improves generalizability of MHC-bound peptide predictions",
+            "year": 2024,
+            "doi": "https://doi.org/10.1038/s42003-024-07292-1",
+            "url": "https://doi.org/https://doi.org/10.1038/s42003-024-07292-1",
+            "openalex_id": "https://openalex.org/W4405577048",
+            "relevance_note": "Matches your use case: molecular property prediction"
+          },
+          {
+            "title": "Improving generalizability for MHC-I binding peptide predictions through geometric deep learning",
+            "year": 2023,
+            "doi": "https://doi.org/10.1101/2023.12.04.569776",
+            "url": "https://doi.org/https://doi.org/10.1101/2023.12.04.569776",
+            "openalex_id": "https://openalex.org/W4389356630",
+            "relevance_note": "Matches your use case: protein-ligand binding; molecular property prediction"
+          },
+          {
+            "title": "Synergizing Geometric Deep Learning and Data-Centric Methods for Improved Protein Structural Alignment",
+            "year": 2023,
+            "doi": "https://doi.org/10.1101/2023.07.14.549112",
+            "url": "https://doi.org/https://doi.org/10.1101/2023.07.14.549112",
+            "openalex_id": "https://openalex.org/W4384526116",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "Your background in PyTorch directly relates to Prof. Li C. Xue's paper \"Geometric deep learning improves generalizability of MHC-bound peptide predictions\".",
+      "match_score": 0.7029,
+      "tier": "target",
+      "linked_programs": [
+        {
+          "name": "Radboud University Graduate School",
+          "url": "https://www.ru.nl/en/education/graduate-school",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Rob Hesselink",
+        "openalex_author_id": "https://openalex.org/A5085772694",
+        "orcid": null,
+        "institution": "University of Amsterdam",
+        "country": "NL",
+        "contact_email": null,
+        "research_focus": "Equivariant Message Passing"
+      },
+      "research_area": "Equivariant Message Passing",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Geometric and Physical Quantities Improve E(3) Equivariant Message Passing",
+            "year": 2021,
+            "doi": "https://doi.org/10.48550/arxiv.2110.02905",
+            "url": "https://doi.org/https://doi.org/10.48550/arxiv.2110.02905",
+            "openalex_id": "https://openalex.org/W3203762305",
+            "relevance_note": null
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch Geometric and graph neural networks makes them a strong match for the professor, whose 2021 paper \"Geometric and Physical Quantities Improve E(3) Equivariant Message Passing\" demonstrates similar research interests.",
+      "match_score": 0.345,
+      "tier": "safety",
+      "linked_programs": [
+        {
+          "name": "University of Amsterdam PhD",
+          "url": "https://www.uva.nl/en/research/phd",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Zekiye Erarslan",
+        "openalex_author_id": "https://openalex.org/A5040265882",
+        "orcid": "https://orcid.org/0000-0002-5500-6202",
+        "institution": "Max Bergmann Zentrum für Biomaterialien",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Equivariant Message Passing"
+      },
+      "research_area": "Equivariant Message Passing",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Advancing density functional tight-binding method for large organic molecules through equivariant neural networks",
+            "year": 2026,
+            "doi": "https://doi.org/10.1039/d6cp00038j",
+            "url": "https://doi.org/https://doi.org/10.1039/d6cp00038j",
+            "openalex_id": "https://openalex.org/W7124755863",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in graph neural networks, particularly PyTorch Geometric, makes them a strong match for the professor's work on Advancing density functional tight-binding method for large organic molecules through equivariant neural networks.",
+      "match_score": 0.5682,
+      "tier": "target",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Marija Ram",
+        "openalex_author_id": "https://openalex.org/A5104264422",
+        "orcid": null,
+        "institution": "Ludwig-Maximilians-Universität München",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Protein-Ligand Binding"
+      },
+      "research_area": "Protein-Ligand Binding",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Dissecting Mechanisms of Ligand Binding and Conformational Changes in the Glutamine-Binding Protein",
+            "year": 2024,
+            "doi": "https://doi.org/10.7554/elife.95304.1",
+            "url": "https://doi.org/https://doi.org/10.7554/elife.95304.1",
+            "openalex_id": "https://openalex.org/W4393160437",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          },
+          {
+            "title": "Dissecting Mechanisms of Ligand Binding and Conformational Changes in the Glutamine-Binding Protein",
+            "year": 2023,
+            "doi": "https://doi.org/10.1101/2023.08.02.551720",
+            "url": "https://doi.org/https://doi.org/10.1101/2023.08.02.551720",
+            "openalex_id": "https://openalex.org/W4385516449",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "Your background in PyTorch directly relates to Prof. Marija Ram's paper \"Dissecting Mechanisms of Ligand Binding and Conformational Changes in the Glutamine-Binding Protein\".",
+      "match_score": 0.6582,
+      "tier": "target",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Michał Sanocki",
+        "openalex_author_id": "https://openalex.org/A5116129098",
+        "orcid": null,
+        "institution": "Technical University of Munich",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Equivariant Message Passing"
+      },
+      "research_area": "Equivariant Message Passing",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Learning non-local molecular interactions via equivariant local representations and charge equilibration",
+            "year": 2025,
+            "doi": "https://doi.org/10.1038/s41524-025-01790-4",
+            "url": "https://doi.org/https://doi.org/10.1038/s41524-025-01790-4",
+            "openalex_id": "https://openalex.org/W4414223010",
+            "relevance_note": "Matches your use case: molecular property prediction"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in graph neural networks, such as DimeNet++, makes them a strong match for the professor's work on Learning non-local molecular interactions via equivariant local representations and charge equilibration.",
+      "match_score": 0.5641,
+      "tier": "target",
+      "linked_programs": [
+        {
+          "name": "TU Munich Doctoral Program",
+          "url": "https://www.tum.de/en/research/doctoral-programs",
+          "open_positions": []
+        }
+      ]
+    },
+    {
+      "supervisor": {
+        "name": "Anna Herr",
+        "openalex_author_id": "https://openalex.org/A5104264423",
+        "orcid": null,
+        "institution": "Ludwig-Maximilians-Universität München",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Protein-Ligand Binding"
+      },
+      "research_area": "Protein-Ligand Binding",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Dissecting Mechanisms of Ligand Binding and Conformational Changes in the Glutamine-Binding Protein",
+            "year": 2024,
+            "doi": "https://doi.org/10.7554/elife.95304.1",
+            "url": "https://doi.org/https://doi.org/10.7554/elife.95304.1",
+            "openalex_id": "https://openalex.org/W4393160437",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          },
+          {
+            "title": "Dissecting Mechanisms of Ligand Binding and Conformational Changes in the Glutamine-Binding Protein",
+            "year": 2023,
+            "doi": "https://doi.org/10.1101/2023.08.02.551720",
+            "url": "https://doi.org/https://doi.org/10.1101/2023.08.02.551720",
+            "openalex_id": "https://openalex.org/W4385516449",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "Your background in PyTorch directly relates to Prof. Anna Herr's paper \"Dissecting Mechanisms of Ligand Binding and Conformational Changes in the Glutamine-Binding Protein\".",
+      "match_score": 0.6582,
+      "tier": "target",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Fleuriane Gallean",
+        "openalex_author_id": "https://openalex.org/A5010751503",
+        "orcid": "https://orcid.org/0000-0002-5506-1172",
+        "institution": "AB2 Bio (Switzerland)",
+        "country": "CH",
+        "contact_email": null,
+        "research_focus": "Protein-Ligand Binding"
+      },
+      "research_area": "Protein-Ligand Binding",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Aberrant hyperexpression of the RNA binding protein FMRP in tumors mediates immune evasion",
+            "year": 2022,
+            "doi": "https://doi.org/10.1126/science.abl7207",
+            "url": "https://doi.org/https://doi.org/10.1126/science.abl7207",
+            "openalex_id": "https://openalex.org/W4309263956",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's proficiency in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on protein-ligand binding, as seen in the paper Aberrant hyperexpression of the RNA binding protein FMRP in tumors mediates immune evasion.",
+      "match_score": 0.4722,
+      "tier": "safety",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Pumin Li",
+        "openalex_author_id": "https://openalex.org/A5077004925",
+        "orcid": "https://orcid.org/0000-0003-4750-5404",
+        "institution": "Swiss Cancer Center Léman",
+        "country": "CH",
+        "contact_email": null,
+        "research_focus": "Protein-Ligand Binding"
+      },
+      "research_area": "Protein-Ligand Binding",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Aberrant hyperexpression of the RNA binding protein FMRP in tumors mediates immune evasion",
+            "year": 2022,
+            "doi": "https://doi.org/10.1126/science.abl7207",
+            "url": "https://doi.org/https://doi.org/10.1126/science.abl7207",
+            "openalex_id": "https://openalex.org/W4309263956",
+            "relevance_note": "Matches your use case: protein-ligand binding"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's proficiency in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on protein-ligand binding, as seen in the paper Aberrant hyperexpression of the RNA binding protein FMRP in tumors mediates immune evasion.",
+      "match_score": 0.4722,
+      "tier": "safety",
+      "linked_programs": []
+    },
+    {
+      "supervisor": {
+        "name": "Neda Rafieiolhosseini",
+        "openalex_author_id": "https://openalex.org/A5052071275",
+        "orcid": "https://orcid.org/0000-0002-2347-7747",
+        "institution": "University of Duisburg-Essen",
+        "country": "DE",
+        "contact_email": null,
+        "research_focus": "Protein-Ligand Binding"
+      },
+      "research_area": "Protein-Ligand Binding",
+      "evidence": {
+        "papers": [
+          {
+            "title": "Computational model predicts protein binding sites of a luminescent ligand equipped with guanidiniocarbonyl-pyrrole groups",
+            "year": 2022,
+            "doi": "https://doi.org/10.3762/bjoc.18.137",
+            "url": "https://doi.org/https://doi.org/10.3762/bjoc.18.137",
+            "openalex_id": "https://openalex.org/W4297007959",
+            "relevance_note": "Matches your use case: protein-ligand binding; computational chemistry"
+          }
+        ],
+        "grants": []
+      },
+      "why_match": "The student's expertise in PyTorch Geometric and graph neural networks makes them a strong match for the professor's work on protein-ligand binding, as seen in the Computational model predicts protein binding sites of a luminescent ligand equipped with guanidiniocarbonyl-pyrrole groups paper.",
+      "match_score": 0.5759,
+      "tier": "target",
+      "linked_programs": []
+    }
+  ],
+  "coverage_summary": {
+    "Computational Chemistry": 11,
+    "Graph Neural Networks": 11,
+    "AI for Drug Discovery": 11,
+    "Geometric Deep Learning": 11,
+    "Cheminformatics": 1,
+    "Protein-Ligand Binding": 11,
+    "Equivariant Message Passing": 6
+  },
+  "run_metadata": {
+    "total_recommendations": 62,
+    "wall_clock_seconds": 632.8,
+    "email_hit_rate": 0.0,
+    "deferred_limitations": [
+      "alphabetical-authorship fields (math/econ) break last-author PI heuristic",
+      "linked_programs not yet live-scraped (department URL acceptable for v1)",
+      "grant coverage limited to CORDIS (EU); DFG/UKRI not yet integrated"
+    ]
+  }
+}

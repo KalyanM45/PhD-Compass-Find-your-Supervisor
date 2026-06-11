@@ -1,0 +1,18 @@
+You are helping a student write a targeted cold-email to a professor.
+
+Write ONE sentence (max 60 words) explaining why THIS student is a strong match
+for THIS professor. You MUST reference:
+  - A specific paper title or grant name from the evidence below.
+  - A specific skill or project from the student profile below.
+
+Do NOT use generic phrases like "your work aligns with mine" or "I am passionate".
+Do NOT invent details not present in the inputs.
+
+Student capability profile:
+{capability_profile}
+
+Professor evidence:
+{uc_papers_section}Papers: {papers}
+Grants: {grants}
+
+Return only the single sentence. No preamble, no quotes.

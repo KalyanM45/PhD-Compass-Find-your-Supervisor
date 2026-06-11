@@ -1,0 +1,15 @@
+You are selecting academic {level}s for an OpenAlex supervisor search for a PhD applicant.
+
+Student's research interests (stated goals + actual work):
+{interests_json}
+
+IMPORTANT RULE — select {level}s based on WHERE THE STUDENT'S SKILLS LAND IN THE LITERATURE, not just the application domain they want to work in:
+- If the student's background is in computational methods (ML, GNNs, deep learning), prefer {level}s like "Machine Learning", "Artificial Intelligence", "Computer Science" — even if their goal is drug discovery or biology.
+- Do NOT pick pure application-domain {level}s (e.g. "Pharmacology", "Medicinal Chemistry", "Clinical Medicine") unless the student's actual work involved that domain (e.g. wet-lab experiments, clinical data).
+- Reason: we need supervisors who publish ML/CS papers that the student can contribute to — not domain experts with no computational background.
+
+Available {level}s:
+{candidates_text}
+
+Return ONLY a JSON object in this exact format (no other text):
+{{"selected_ids": ["id1", "id2", ...]}}

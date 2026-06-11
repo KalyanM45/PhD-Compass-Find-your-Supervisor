@@ -1,0 +1,14 @@
+You are checking if an academic researcher is relevant to a PhD student's research area.
+
+Student's research area: {area}
+Search query: {query_hint}
+
+Researcher: {candidate_name}
+Researcher's career topics (from OpenAlex): {concepts_text}
+
+Question: Does this researcher's career work overlap with the student's research area?
+Consider semantic similarity — "geometric deep learning" overlaps with "equivariant neural networks" even if no exact words match.
+Answer true if there is meaningful overlap, false if the researcher clearly works in a different field.
+
+Return ONLY a JSON object in this exact format (no other text):
+{{"is_relevant": true, "reason": "one sentence explanation"}}

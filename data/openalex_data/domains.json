@@ -1,0 +1,18 @@
+[
+  {
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  }
+]

@@ -1,0 +1,2018 @@
+[
+  {
+    "subfield_id": "2202",
+    "subfield_name": "Aerospace Engineering",
+    "field_id": "22",
+    "field_name": "Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3106",
+    "subfield_name": "Nuclear and High Energy Physics",
+    "field_id": "31",
+    "field_name": "Physics and Astronomy",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2002",
+    "subfield_name": "Economics and Econometrics",
+    "field_id": "20",
+    "field_name": "Economics, Econometrics and Finance",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1702",
+    "subfield_name": "Artificial Intelligence",
+    "field_id": "17",
+    "field_name": "Computer Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1110",
+    "subfield_name": "Plant Science",
+    "field_id": "11",
+    "field_name": "Agricultural and Biological Sciences",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2735",
+    "subfield_name": "Pediatrics, Perinatology and Child Health",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2302",
+    "subfield_name": "Ecological Modeling",
+    "field_id": "23",
+    "field_name": "Environmental Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1304",
+    "subfield_name": "Biophysics",
+    "field_id": "13",
+    "field_name": "Biochemistry, Genetics and Molecular Biology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2208",
+    "subfield_name": "Electrical and Electronic Engineering",
+    "field_id": "22",
+    "field_name": "Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1211",
+    "subfield_name": "Philosophy",
+    "field_id": "12",
+    "field_name": "Arts and Humanities",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1208",
+    "subfield_name": "Literature and Literary Theory",
+    "field_id": "12",
+    "field_name": "Arts and Humanities",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2505",
+    "subfield_name": "Materials Chemistry",
+    "field_id": "25",
+    "field_name": "Materials Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3312",
+    "subfield_name": "Sociology and Political Science",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "3103",
+    "subfield_name": "Astronomy and Astrophysics",
+    "field_id": "31",
+    "field_name": "Physics and Astronomy",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3314",
+    "subfield_name": "Anthropology",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1312",
+    "subfield_name": "Molecular Biology",
+    "field_id": "13",
+    "field_name": "Biochemistry, Genetics and Molecular Biology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "1210",
+    "subfield_name": "Music",
+    "field_id": "12",
+    "field_name": "Arts and Humanities",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1209",
+    "subfield_name": "Museology",
+    "field_id": "12",
+    "field_name": "Arts and Humanities",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2308",
+    "subfield_name": "Management, Monitoring, Policy and Law",
+    "field_id": "23",
+    "field_name": "Environmental Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3107",
+    "subfield_name": "Atomic and Molecular Physics, and Optics",
+    "field_id": "31",
+    "field_name": "Physics and Astronomy",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3304",
+    "subfield_name": "Education",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2743",
+    "subfield_name": "Reproductive Medicine",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1911",
+    "subfield_name": "Paleontology",
+    "field_id": "19",
+    "field_name": "Earth and Planetary Sciences",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3320",
+    "subfield_name": "Political Science and International Relations",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "3104",
+    "subfield_name": "Condensed Matter Physics",
+    "field_id": "31",
+    "field_name": "Physics and Astronomy",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1802",
+    "subfield_name": "Information Systems and Management",
+    "field_id": "18",
+    "field_name": "Decision Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2206",
+    "subfield_name": "Computational Mechanics",
+    "field_id": "22",
+    "field_name": "Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2736",
+    "subfield_name": "Pharmacology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1311",
+    "subfield_name": "Genetics",
+    "field_id": "13",
+    "field_name": "Biochemistry, Genetics and Molecular Biology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "1212",
+    "subfield_name": "Religious studies",
+    "field_id": "12",
+    "field_name": "Arts and Humanities",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2746",
+    "subfield_name": "Surgery",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1902",
+    "subfield_name": "Atmospheric Science",
+    "field_id": "19",
+    "field_name": "Earth and Planetary Sciences",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1202",
+    "subfield_name": "History",
+    "field_id": "12",
+    "field_name": "Arts and Humanities",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1908",
+    "subfield_name": "Geophysics",
+    "field_id": "19",
+    "field_name": "Earth and Planetary Sciences",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1710",
+    "subfield_name": "Information Systems",
+    "field_id": "17",
+    "field_name": "Computer Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1109",
+    "subfield_name": "Insect Science",
+    "field_id": "11",
+    "field_name": "Agricultural and Biological Sciences",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "1205",
+    "subfield_name": "Classics",
+    "field_id": "12",
+    "field_name": "Arts and Humanities",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1606",
+    "subfield_name": "Physical and Theoretical Chemistry",
+    "field_id": "16",
+    "field_name": "Chemistry",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2305",
+    "subfield_name": "Environmental Engineering",
+    "field_id": "23",
+    "field_name": "Environmental Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1207",
+    "subfield_name": "History and Philosophy of Science",
+    "field_id": "12",
+    "field_name": "Arts and Humanities",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1706",
+    "subfield_name": "Computer Science Applications",
+    "field_id": "17",
+    "field_name": "Computer Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3105",
+    "subfield_name": "Instrumentation",
+    "field_id": "31",
+    "field_name": "Physics and Astronomy",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1605",
+    "subfield_name": "Organic Chemistry",
+    "field_id": "16",
+    "field_name": "Chemistry",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2502",
+    "subfield_name": "Biomaterials",
+    "field_id": "25",
+    "field_name": "Materials Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3300",
+    "subfield_name": "General Social Sciences",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2304",
+    "subfield_name": "Environmental Chemistry",
+    "field_id": "23",
+    "field_name": "Environmental Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1105",
+    "subfield_name": "Ecology, Evolution, Behavior and Systematics",
+    "field_id": "11",
+    "field_name": "Agricultural and Biological Sciences",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "3308",
+    "subfield_name": "Law",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2212",
+    "subfield_name": "Ocean Engineering",
+    "field_id": "22",
+    "field_name": "Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2729",
+    "subfield_name": "Obstetrics and Gynecology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "3322",
+    "subfield_name": "Urban Studies",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1910",
+    "subfield_name": "Oceanography",
+    "field_id": "19",
+    "field_name": "Earth and Planetary Sciences",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3316",
+    "subfield_name": "Cultural Studies",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2739",
+    "subfield_name": "Public Health, Environmental and Occupational Health",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1203",
+    "subfield_name": "Language and Linguistics",
+    "field_id": "12",
+    "field_name": "Arts and Humanities",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1204",
+    "subfield_name": "Archeology",
+    "field_id": "12",
+    "field_name": "Arts and Humanities",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2614",
+    "subfield_name": "Theoretical Computer Science",
+    "field_id": "26",
+    "field_name": "Mathematics",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2210",
+    "subfield_name": "Mechanical Engineering",
+    "field_id": "22",
+    "field_name": "Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1607",
+    "subfield_name": "Spectroscopy",
+    "field_id": "16",
+    "field_name": "Chemistry",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2306",
+    "subfield_name": "Global and Planetary Change",
+    "field_id": "23",
+    "field_name": "Environmental Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3203",
+    "subfield_name": "Clinical Psychology",
+    "field_id": "32",
+    "field_name": "Psychology",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "3600",
+    "subfield_name": "General Health Professions",
+    "field_id": "36",
+    "field_name": "Health Professions",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "3313",
+    "subfield_name": "Transportation",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2205",
+    "subfield_name": "Civil and Structural Engineering",
+    "field_id": "22",
+    "field_name": "Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2713",
+    "subfield_name": "Epidemiology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1307",
+    "subfield_name": "Cell Biology",
+    "field_id": "13",
+    "field_name": "Biochemistry, Genetics and Molecular Biology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2702",
+    "subfield_name": "Anatomy",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2508",
+    "subfield_name": "Surfaces, Coatings and Films",
+    "field_id": "25",
+    "field_name": "Materials Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2209",
+    "subfield_name": "Industrial and Manufacturing Engineering",
+    "field_id": "22",
+    "field_name": "Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2204",
+    "subfield_name": "Biomedical Engineering",
+    "field_id": "22",
+    "field_name": "Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2725",
+    "subfield_name": "Infectious Diseases",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1707",
+    "subfield_name": "Computer Vision and Pattern Recognition",
+    "field_id": "17",
+    "field_name": "Computer Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2000",
+    "subfield_name": "General Economics, Econometrics and Finance",
+    "field_id": "20",
+    "field_name": "Economics, Econometrics and Finance",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2309",
+    "subfield_name": "Nature and Landscape Conservation",
+    "field_id": "23",
+    "field_name": "Environmental Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3317",
+    "subfield_name": "Demography",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1408",
+    "subfield_name": "Strategy and Management",
+    "field_id": "14",
+    "field_name": "Business, Management and Accounting",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1705",
+    "subfield_name": "Computer Networks and Communications",
+    "field_id": "17",
+    "field_name": "Computer Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2804",
+    "subfield_name": "Cellular and Molecular Neuroscience",
+    "field_id": "28",
+    "field_name": "Neuroscience",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2705",
+    "subfield_name": "Cardiology and Cardiovascular Medicine",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2303",
+    "subfield_name": "Ecology",
+    "field_id": "23",
+    "field_name": "Environmental Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2707",
+    "subfield_name": "Complementary and alternative medicine",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2737",
+    "subfield_name": "Physiology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "3108",
+    "subfield_name": "Radiation",
+    "field_id": "31",
+    "field_name": "Physics and Astronomy",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3205",
+    "subfield_name": "Experimental and Cognitive Psychology",
+    "field_id": "32",
+    "field_name": "Psychology",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2740",
+    "subfield_name": "Pulmonary and Respiratory Medicine",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2916",
+    "subfield_name": "Nutrition and Dietetics",
+    "field_id": "29",
+    "field_name": "Nursing",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "3402",
+    "subfield_name": "Equine",
+    "field_id": "34",
+    "field_name": "Veterinary",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1111",
+    "subfield_name": "Soil Science",
+    "field_id": "11",
+    "field_name": "Agricultural and Biological Sciences",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2738",
+    "subfield_name": "Psychiatry and Mental health",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1102",
+    "subfield_name": "Agronomy and Crop Science",
+    "field_id": "11",
+    "field_name": "Agricultural and Biological Sciences",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "1106",
+    "subfield_name": "Food Science",
+    "field_id": "11",
+    "field_name": "Agricultural and Biological Sciences",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "3603",
+    "subfield_name": "Complementary and Manual Therapy",
+    "field_id": "36",
+    "field_name": "Health Professions",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1602",
+    "subfield_name": "Analytical Chemistry",
+    "field_id": "16",
+    "field_name": "Chemistry",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3207",
+    "subfield_name": "Social Psychology",
+    "field_id": "32",
+    "field_name": "Psychology",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2720",
+    "subfield_name": "Hematology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "3605",
+    "subfield_name": "Health Information Management",
+    "field_id": "36",
+    "field_name": "Health Professions",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2806",
+    "subfield_name": "Developmental Neuroscience",
+    "field_id": "28",
+    "field_name": "Neuroscience",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2207",
+    "subfield_name": "Control and Systems Engineering",
+    "field_id": "22",
+    "field_name": "Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2741",
+    "subfield_name": "Radiology, Nuclear Medicine and Imaging",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1407",
+    "subfield_name": "Organizational Behavior and Human Resource Management",
+    "field_id": "14",
+    "field_name": "Business, Management and Accounting",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "3311",
+    "subfield_name": "Safety Research",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1800",
+    "subfield_name": "General Decision Sciences",
+    "field_id": "18",
+    "field_name": "Decision Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2215",
+    "subfield_name": "Building and Construction",
+    "field_id": "22",
+    "field_name": "Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1406",
+    "subfield_name": "Marketing",
+    "field_id": "14",
+    "field_name": "Business, Management and Accounting",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1404",
+    "subfield_name": "Management Information Systems",
+    "field_id": "14",
+    "field_name": "Business, Management and Accounting",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2613",
+    "subfield_name": "Statistics and Probability",
+    "field_id": "26",
+    "field_name": "Mathematics",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3318",
+    "subfield_name": "Gender Studies",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2730",
+    "subfield_name": "Oncology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1405",
+    "subfield_name": "Management of Technology and Innovation",
+    "field_id": "14",
+    "field_name": "Business, Management and Accounting",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2307",
+    "subfield_name": "Health, Toxicology and Mutagenesis",
+    "field_id": "23",
+    "field_name": "Environmental Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2604",
+    "subfield_name": "Applied Mathematics",
+    "field_id": "26",
+    "field_name": "Mathematics",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1100",
+    "subfield_name": "General Agricultural and Biological Sciences",
+    "field_id": "11",
+    "field_name": "Agricultural and Biological Sciences",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "3305",
+    "subfield_name": "Geography, Planning and Development",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2734",
+    "subfield_name": "Pathology and Forensic Medicine",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2727",
+    "subfield_name": "Nephrology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2721",
+    "subfield_name": "Hepatology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2403",
+    "subfield_name": "Immunology",
+    "field_id": "24",
+    "field_name": "Immunology and Microbiology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "1503",
+    "subfield_name": "Catalysis",
+    "field_id": "15",
+    "field_name": "Chemical Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2213",
+    "subfield_name": "Safety, Risk, Reliability and Quality",
+    "field_id": "22",
+    "field_name": "Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2105",
+    "subfield_name": "Renewable Energy, Sustainability and the Environment",
+    "field_id": "21",
+    "field_name": "Energy",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2310",
+    "subfield_name": "Pollution",
+    "field_id": "23",
+    "field_name": "Environmental Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2312",
+    "subfield_name": "Water Science and Technology",
+    "field_id": "23",
+    "field_name": "Environmental Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2608",
+    "subfield_name": "Geometry and Topology",
+    "field_id": "26",
+    "field_name": "Mathematics",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2728",
+    "subfield_name": "Neurology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1704",
+    "subfield_name": "Computer Graphics and Computer-Aided Design",
+    "field_id": "17",
+    "field_name": "Computer Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2602",
+    "subfield_name": "Algebra and Number Theory",
+    "field_id": "26",
+    "field_name": "Mathematics",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2610",
+    "subfield_name": "Mathematical Physics",
+    "field_id": "26",
+    "field_name": "Mathematics",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2311",
+    "subfield_name": "Industrial and Manufacturing Engineering",
+    "field_id": "23",
+    "field_name": "Environmental Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1402",
+    "subfield_name": "Accounting",
+    "field_id": "14",
+    "field_name": "Business, Management and Accounting",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2211",
+    "subfield_name": "Mechanics of Materials",
+    "field_id": "22",
+    "field_name": "Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1703",
+    "subfield_name": "Computational Theory and Mathematics",
+    "field_id": "17",
+    "field_name": "Computer Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2712",
+    "subfield_name": "Endocrinology, Diabetes and Metabolism",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1604",
+    "subfield_name": "Inorganic Chemistry",
+    "field_id": "16",
+    "field_name": "Chemistry",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2911",
+    "subfield_name": "Leadership and Management",
+    "field_id": "29",
+    "field_name": "Nursing",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1103",
+    "subfield_name": "Animal Science and Zoology",
+    "field_id": "11",
+    "field_name": "Agricultural and Biological Sciences",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "1200",
+    "subfield_name": "General Arts and Humanities",
+    "field_id": "12",
+    "field_name": "Arts and Humanities",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "3206",
+    "subfield_name": "Neuropsychology and Physiological Psychology",
+    "field_id": "32",
+    "field_name": "Psychology",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2612",
+    "subfield_name": "Numerical Analysis",
+    "field_id": "26",
+    "field_name": "Mathematics",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3616",
+    "subfield_name": "Speech and Hearing",
+    "field_id": "36",
+    "field_name": "Health Professions",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1907",
+    "subfield_name": "Geology",
+    "field_id": "19",
+    "field_name": "Earth and Planetary Sciences",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3612",
+    "subfield_name": "Physical Therapy, Sports Therapy and Rehabilitation",
+    "field_id": "36",
+    "field_name": "Health Professions",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1804",
+    "subfield_name": "Statistics, Probability and Uncertainty",
+    "field_id": "18",
+    "field_name": "Decision Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2716",
+    "subfield_name": "Genetics",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1410",
+    "subfield_name": "Industrial relations",
+    "field_id": "14",
+    "field_name": "Business, Management and Accounting",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2503",
+    "subfield_name": "Ceramics and Composites",
+    "field_id": "25",
+    "field_name": "Materials Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2507",
+    "subfield_name": "Polymers and Plastics",
+    "field_id": "25",
+    "field_name": "Materials Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1803",
+    "subfield_name": "Management Science and Operations Research",
+    "field_id": "18",
+    "field_name": "Decision Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1107",
+    "subfield_name": "Forestry",
+    "field_id": "11",
+    "field_name": "Agricultural and Biological Sciences",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "1314",
+    "subfield_name": "Physiology",
+    "field_id": "13",
+    "field_name": "Biochemistry, Genetics and Molecular Biology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2723",
+    "subfield_name": "Immunology and Allergy",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1306",
+    "subfield_name": "Cancer Research",
+    "field_id": "13",
+    "field_name": "Biochemistry, Genetics and Molecular Biology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2745",
+    "subfield_name": "Rheumatology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "3504",
+    "subfield_name": "Oral Surgery",
+    "field_id": "35",
+    "field_name": "Dentistry",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2711",
+    "subfield_name": "Emergency Medicine",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2805",
+    "subfield_name": "Cognitive Neuroscience",
+    "field_id": "28",
+    "field_name": "Neuroscience",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2733",
+    "subfield_name": "Otorhinolaryngology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2100",
+    "subfield_name": "General Energy",
+    "field_id": "21",
+    "field_name": "Energy",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2742",
+    "subfield_name": "Rehabilitation",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2203",
+    "subfield_name": "Automotive Engineering",
+    "field_id": "22",
+    "field_name": "Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3505",
+    "subfield_name": "Orthodontics",
+    "field_id": "35",
+    "field_name": "Dentistry",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2500",
+    "subfield_name": "General Materials Science",
+    "field_id": "25",
+    "field_name": "Materials Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3303",
+    "subfield_name": "Development",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2003",
+    "subfield_name": "Finance",
+    "field_id": "20",
+    "field_name": "Economics, Econometrics and Finance",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "3307",
+    "subfield_name": "Human Factors and Ergonomics",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2910",
+    "subfield_name": "Issues, ethics and legal aspects",
+    "field_id": "29",
+    "field_name": "Nursing",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1305",
+    "subfield_name": "Biotechnology",
+    "field_id": "13",
+    "field_name": "Biochemistry, Genetics and Molecular Biology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "3109",
+    "subfield_name": "Statistical and Nonlinear Physics",
+    "field_id": "31",
+    "field_name": "Physics and Astronomy",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1507",
+    "subfield_name": "Fluid Flow and Transfer Processes",
+    "field_id": "15",
+    "field_name": "Chemical Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2216",
+    "subfield_name": "Architecture",
+    "field_id": "22",
+    "field_name": "Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1213",
+    "subfield_name": "Visual Arts and Performing Arts",
+    "field_id": "12",
+    "field_name": "Arts and Humanities",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1906",
+    "subfield_name": "Geochemistry and Petrology",
+    "field_id": "19",
+    "field_name": "Earth and Planetary Sciences",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1904",
+    "subfield_name": "Earth-Surface Processes",
+    "field_id": "19",
+    "field_name": "Earth and Planetary Sciences",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1309",
+    "subfield_name": "Developmental Biology",
+    "field_id": "13",
+    "field_name": "Biochemistry, Genetics and Molecular Biology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "1308",
+    "subfield_name": "Clinical Biochemistry",
+    "field_id": "13",
+    "field_name": "Biochemistry, Genetics and Molecular Biology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2708",
+    "subfield_name": "Dermatology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "3315",
+    "subfield_name": "Communication",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "3003",
+    "subfield_name": "Pharmaceutical Science",
+    "field_id": "30",
+    "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "1310",
+    "subfield_name": "Endocrinology",
+    "field_id": "13",
+    "field_name": "Biochemistry, Genetics and Molecular Biology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2506",
+    "subfield_name": "Metals and Alloys",
+    "field_id": "25",
+    "field_name": "Materials Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1712",
+    "subfield_name": "Software",
+    "field_id": "17",
+    "field_name": "Computer Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3202",
+    "subfield_name": "Applied Psychology",
+    "field_id": "32",
+    "field_name": "Psychology",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "3404",
+    "subfield_name": "Small Animals",
+    "field_id": "34",
+    "field_name": "Veterinary",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1206",
+    "subfield_name": "Conservation",
+    "field_id": "12",
+    "field_name": "Arts and Humanities",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2214",
+    "subfield_name": "Media Technology",
+    "field_id": "22",
+    "field_name": "Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2803",
+    "subfield_name": "Biological Psychiatry",
+    "field_id": "28",
+    "field_name": "Neuroscience",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2607",
+    "subfield_name": "Discrete Mathematics and Combinatorics",
+    "field_id": "26",
+    "field_name": "Mathematics",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2731",
+    "subfield_name": "Ophthalmology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "3614",
+    "subfield_name": "Radiological and Ultrasound Technology",
+    "field_id": "36",
+    "field_name": "Health Professions",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "3608",
+    "subfield_name": "Medical Terminology",
+    "field_id": "36",
+    "field_name": "Health Professions",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "3310",
+    "subfield_name": "Linguistics and Language",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1302",
+    "subfield_name": "Aging",
+    "field_id": "13",
+    "field_name": "Biochemistry, Genetics and Molecular Biology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2748",
+    "subfield_name": "Urology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2611",
+    "subfield_name": "Modeling and Simulation",
+    "field_id": "26",
+    "field_name": "Mathematics",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3506",
+    "subfield_name": "Periodontics",
+    "field_id": "35",
+    "field_name": "Dentistry",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2504",
+    "subfield_name": "Electronic, Optical and Magnetic Materials",
+    "field_id": "25",
+    "field_name": "Materials Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3306",
+    "subfield_name": "Health",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2807",
+    "subfield_name": "Endocrine and Autonomic Systems",
+    "field_id": "28",
+    "field_name": "Neuroscience",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "3604",
+    "subfield_name": "Emergency Medical Services",
+    "field_id": "36",
+    "field_name": "Health Professions",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "3302",
+    "subfield_name": "Archeology",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1711",
+    "subfield_name": "Signal Processing",
+    "field_id": "17",
+    "field_name": "Computer Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2704",
+    "subfield_name": "Biochemistry",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "3607",
+    "subfield_name": "Medical Laboratory Technology",
+    "field_id": "36",
+    "field_name": "Health Professions",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2732",
+    "subfield_name": "Orthopedics and Sports Medicine",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2102",
+    "subfield_name": "Energy Engineering and Power Technology",
+    "field_id": "21",
+    "field_name": "Energy",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2809",
+    "subfield_name": "Sensory Systems",
+    "field_id": "28",
+    "field_name": "Neuroscience",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "3321",
+    "subfield_name": "Public Administration",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1315",
+    "subfield_name": "Structural Biology",
+    "field_id": "13",
+    "field_name": "Biochemistry, Genetics and Molecular Biology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "3309",
+    "subfield_name": "Library and Information Sciences",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1104",
+    "subfield_name": "Aquatic Science",
+    "field_id": "11",
+    "field_name": "Agricultural and Biological Sciences",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "1708",
+    "subfield_name": "Hardware and Architecture",
+    "field_id": "17",
+    "field_name": "Computer Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3200",
+    "subfield_name": "General Psychology",
+    "field_id": "32",
+    "field_name": "Psychology",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1502",
+    "subfield_name": "Bioengineering",
+    "field_id": "15",
+    "field_name": "Chemical Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2808",
+    "subfield_name": "Neurology",
+    "field_id": "28",
+    "field_name": "Neuroscience",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2724",
+    "subfield_name": "Internal Medicine",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1603",
+    "subfield_name": "Electrochemistry",
+    "field_id": "16",
+    "field_name": "Chemistry",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3204",
+    "subfield_name": "Developmental and Educational Psychology",
+    "field_id": "32",
+    "field_name": "Psychology",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2405",
+    "subfield_name": "Parasitology",
+    "field_id": "24",
+    "field_name": "Immunology and Microbiology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2404",
+    "subfield_name": "Microbiology",
+    "field_id": "24",
+    "field_name": "Immunology and Microbiology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2802",
+    "subfield_name": "Behavioral Neuroscience",
+    "field_id": "28",
+    "field_name": "Neuroscience",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "1912",
+    "subfield_name": "Space and Planetary Science",
+    "field_id": "19",
+    "field_name": "Earth and Planetary Sciences",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2703",
+    "subfield_name": "Anesthesiology and Pain Medicine",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "3609",
+    "subfield_name": "Occupational Therapy",
+    "field_id": "36",
+    "field_name": "Health Professions",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "3004",
+    "subfield_name": "Pharmacology",
+    "field_id": "30",
+    "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "1506",
+    "subfield_name": "Filtration and Separation",
+    "field_id": "15",
+    "field_name": "Chemical Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2406",
+    "subfield_name": "Virology",
+    "field_id": "24",
+    "field_name": "Immunology and Microbiology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2726",
+    "subfield_name": "Microbiology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1303",
+    "subfield_name": "Biochemistry",
+    "field_id": "13",
+    "field_name": "Biochemistry, Genetics and Molecular Biology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "3500",
+    "subfield_name": "General Dentistry",
+    "field_id": "35",
+    "field_name": "Dentistry",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2717",
+    "subfield_name": "Geriatrics and Gerontology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1403",
+    "subfield_name": "Business and International Management",
+    "field_id": "14",
+    "field_name": "Business, Management and Accounting",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "1313",
+    "subfield_name": "Molecular Medicine",
+    "field_id": "13",
+    "field_name": "Biochemistry, Genetics and Molecular Biology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2715",
+    "subfield_name": "Gastroenterology",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1504",
+    "subfield_name": "Chemical Health and Safety",
+    "field_id": "15",
+    "field_name": "Chemical Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2922",
+    "subfield_name": "Research and Theory",
+    "field_id": "29",
+    "field_name": "Nursing",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "3611",
+    "subfield_name": "Pharmacy",
+    "field_id": "36",
+    "field_name": "Health Professions",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2706",
+    "subfield_name": "Critical Care and Intensive Care Medicine",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1709",
+    "subfield_name": "Human-Computer Interaction",
+    "field_id": "17",
+    "field_name": "Computer Science",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2103",
+    "subfield_name": "Fuel Technology",
+    "field_id": "21",
+    "field_name": "Energy",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3005",
+    "subfield_name": "Toxicology",
+    "field_id": "30",
+    "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2718",
+    "subfield_name": "Health Informatics",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "1108",
+    "subfield_name": "Horticulture",
+    "field_id": "11",
+    "field_name": "Agricultural and Biological Sciences",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "1508",
+    "subfield_name": "Process Chemistry and Technology",
+    "field_id": "15",
+    "field_name": "Chemical Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "2714",
+    "subfield_name": "Family Practice",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2747",
+    "subfield_name": "Transplantation",
+    "field_id": "27",
+    "field_name": "Medicine",
+    "domain_id": "4",
+    "domain_name": "Health Sciences"
+  },
+  {
+    "subfield_id": "2402",
+    "subfield_name": "Applied Microbiology and Biotechnology",
+    "field_id": "24",
+    "field_name": "Immunology and Microbiology",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2605",
+    "subfield_name": "Computational Mathematics",
+    "field_id": "26",
+    "field_name": "Mathematics",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "1409",
+    "subfield_name": "Tourism, Leisure and Hospitality Management",
+    "field_id": "14",
+    "field_name": "Business, Management and Accounting",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "3319",
+    "subfield_name": "Life-span and Life-course Studies",
+    "field_id": "33",
+    "field_name": "Social Sciences",
+    "domain_id": "2",
+    "domain_name": "Social Sciences"
+  },
+  {
+    "subfield_id": "2104",
+    "subfield_name": "Nuclear Energy and Engineering",
+    "field_id": "21",
+    "field_name": "Energy",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3102",
+    "subfield_name": "Acoustics and Ultrasonics",
+    "field_id": "31",
+    "field_name": "Physics and Astronomy",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  },
+  {
+    "subfield_id": "3002",
+    "subfield_name": "Drug Discovery",
+    "field_id": "30",
+    "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+    "domain_id": "1",
+    "domain_name": "Life Sciences"
+  },
+  {
+    "subfield_id": "2200",
+    "subfield_name": "General Engineering",
+    "field_id": "22",
+    "field_name": "Engineering",
+    "domain_id": "3",
+    "domain_name": "Physical Sciences"
+  }
+]

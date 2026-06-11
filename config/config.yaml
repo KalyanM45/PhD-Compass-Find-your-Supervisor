@@ -1,0 +1,54 @@
+# PhD Shortlist Builder — runtime configuration
+
+openalex:
+  mailto: "mhemakalyan@gmail.com"   # polite-pool identifier
+  base_url: "https://api.openalex.org"
+  max_works_per_area: 300              # papers retrieved per research area
+  min_citation_count: 0               # include all papers; scoring handles quality
+  recency_years: 5                    # paper must be within this many years
+
+semantic_scholar:
+  base_url: "https://api.semanticscholar.org/graph/v1"
+
+orcid:
+  base_url: "https://pub.orcid.org/v3.0"
+
+cordis:
+  base_url: "https://cordis.europa.eu/api"
+
+quotas:
+  total_target: 80          # aim for this many before dedup/filter
+  min_final: 1              # warn below this; set to 50 for production
+  max_per_area_fraction: 0.5  # no area gets > 50% of total
+
+scoring:
+  recency_weight: 0.2
+  topic_similarity_weight: 0.5
+  evidence_strength_weight: 0.2
+  seniority_weight: 0.1
+
+tiering:
+  reach_threshold: 0.75     # match_score >= this → reach
+  target_threshold: 0.50    # match_score >= this → target; else safety
+
+timeouts:
+  api_request_seconds: 20
+  email_scrape_seconds: 10
+  why_match_seconds: 90   # covers up to 3 retries (2+4+8 s backoff) + actual LLM latency
+  parallelism_limit: 10     # max concurrent async tasks (non-LLM)
+  llm_parallelism_limit: 3  # concurrent LLM calls; keep low to avoid TPM/RPM exhaustion
+
+llm:
+  model: "llama-3.3-70b-versatile"   # Groq — 12k TPM, no thinking-token overhead
+  max_tokens: 4096
+
+cache:
+  dir: ".cache"
+  ttl_seconds: 86400        # 24 h
+
+supervision:
+  min_works_count: 10       # hard drop below this (PhD students typically < 10)
+  min_h_index: 5            # hard drop below this (PhD students typically < 5)
+  orcid_faculty_check: true # check ORCID employment when ORCID is available
+  # ORCID confirmed-faculty overrides low metrics (keeps early-career assistant profs)
+  # ORCID confirmed-junior (postdoc/student only) applies stricter metric thresholds

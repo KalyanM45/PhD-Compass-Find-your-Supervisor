@@ -1,0 +1,25 @@
+{
+  "student_id": "001",
+  "generated_at": "2026-06-11T03:17:14.312879Z",
+  "target_countries": [
+    "INDIA",
+    "UNITED STATES",
+    "UNITED KINGDOM"
+  ],
+  "target_intake": {
+    "semester": "Fall",
+    "year": 2026
+  },
+  "recommendations": [],
+  "coverage_summary": {},
+  "run_metadata": {
+    "total_recommendations": 0,
+    "wall_clock_seconds": 120.5,
+    "email_hit_rate": 0.0,
+    "deferred_limitations": [
+      "alphabetical-authorship fields (math/econ) break last-author PI heuristic",
+      "linked_programs not yet live-scraped (department URL acceptable for v1)",
+      "grant coverage limited to CORDIS (EU); DFG/UKRI not yet integrated"
+    ]
+  }
+}
